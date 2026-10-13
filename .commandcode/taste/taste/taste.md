@@ -1,0 +1,31 @@
+# Taste
+- Prefers a module-based (feature-module) architecture: each feature is a self-contained module, rather than layering everything globally. Confidence: 0.75
+- Prefers incremental, step-by-step scaffolding — when asking for a setup step, wants exactly that step performed and nothing more (e.g. "just create folders for now, no files"), and dislikes extra artifacts being added ahead of time. Confidence: 0.7
+- Prefers app configuration driven by environment variables via typed settings (e.g. pydantic-settings), with a committed `.env.example` template and a gitignored `.env` holding real values, and wants placeholder credentials/config (e.g. DB URL) committed while supplying real secrets himself later. Confidence: 0.65
+- Prefers centralized/global error handling so uncaught exceptions are caught and handled gracefully (consistent structured error responses, no internal details leaked), rather than crashing or exposing internals. Confidence: 0.55
+- Prefers SQLModel (rather than raw SQLAlchemy) as the database/ORM layer. Confidence: 0.6
+- Manages Python dependencies with `uv` (`uv add`, `uv run`, `uv pip`). Confidence: 0.55
+- Communicates in terse, informal, lowercase requests (minimal punctuation, typos fine) and expects the agent to infer scope and design details. Confidence: 0.5
+- Prefers pgvector — the Postgres `vector` extension inside the existing database — over a separate/dedicated vector database. Confidence: 0.85
+- Prefers no automated unit tests; wants work verified manually end-to-end (Swagger UI / curl) instead. Confidence: 0.8
+- Wants large work planned as ordered batches/phases, each a self-contained, shippable step with its own verification, pausing for review before starting the next. Confidence: 0.8
+- Prefers async database access in FastAPI (asyncpg + an async session layer) rather than sync. Confidence: 0.6
+- Values an evaluation step for AI/RAG features: measuring answer accuracy and hallucination rate and tracking how accuracy improves as the corpus grows. Confidence: 0.6
+- Distrusts LLM-as-judge for evaluation: rejects using another LLM (e.g. GPT) to score answers, and instead has the harness collect the model's raw answers and verifies each one by hand against the source corpus. Confidence: 0.85
+- Wants AI/RAG answers to cite their exact source at chunk/passage granularity (inline citations plus chunk-level `sources`), not just document titles — traceability of where an answer came from matters. Confidence: 0.7
+- Wants hallucination in AI/RAG answers driven to zero: a zero-tolerance correctness bar where the assistant should abstain ("could not find that information") rather than assert anything not in the retrieved passages, even at the cost of recall/coverage. Confidence: 0.6
+- Wants adversarial/negative test coverage for AI behavior: deliberately include out-of-corpus ("unanswerable") and partially-present questions to probe for hallucination, not just answerable happy-path cases. Confidence: 0.6
+- Prefers versioned schema migrations (Alembic) over creating tables on app startup. Confidence: 0.55
+- Prefers running the latest Postgres (explicitly PostgreSQL 18). Confidence: 0.5
+- Prefers Ruff (lint + format) and mypy (static type checking) as the Python code-quality tooling, configured in `pyproject.toml`. Confidence: 0.5
+- Prefers GitHub Actions for CI running lint/format/type checks (no test job). Confidence: 0.4
+- Prefers containerizing the app with a Dockerfile + docker-compose (building on the pgvector/Postgres image) for local/dev. Confidence: 0.4
+- Wants the public git repo to contain only "relevant" (production) code — auxiliary/tooling and evaluation scripts should be kept local and gitignored rather than committed/pushed to GitHub. Confidence: 0.65
+- Wants evaluation results documented in the project README (methodology, results table, and the guardrails behind the numbers), so the report is versioned even when the harness itself is not. Confidence: 0.6
+- Prefers a React + Vite + TypeScript SPA for the frontend (rather than server-rendered Jinja/HTMX), styled with Tailwind CSS + shadcn/ui. Confidence: 0.6
+- Prefers the SPA built to static files and served by the backend on the same origin (single deployable, CORS dropped) instead of a separately deployed frontend. Confidence: 0.5
+- Prefers HttpOnly cookie-based session auth for browser clients (treats it as the more secure option) while keeping bearer tokens working for API clients/curl/Swagger. Confidence: 0.5
+- Treats verification as adversarial: wants prior claims/results independently reproduced and challenged, failures reported exactly as they are, and explicitly does NOT want results massaged or defended to match existing documentation ("verify these claims, not defend them"). Confidence: 0.85
+- Applies held-out / test-set discipline to evaluation: freeze the config, run a held-out question set exactly once, and don't tune prompts/thresholds based on its results; wants disclosure when a parameter (e.g. a retrieval cutoff) was tuned on the same set used to report results, and any post-hoc change to be marked as no longer held-out. Confidence: 0.7
+- Insists on plain, factual reporting with no inflated claims, and accurate attribution of work (e.g. not describing results as "verified by hand" when the agent, not the user, did the grading). Confidence: 0.7
+- Wants changes kept to small diffs without refactoring unrelated code, and work time-boxed. Confidence: 0.7

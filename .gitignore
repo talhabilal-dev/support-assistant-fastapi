@@ -1,0 +1,47 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+venv/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Databases
+*.db
+*.sqlite3
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Type checking / linting
+.mypy_cache/
+.ruff_cache/
+.pyright/
+
+# Logs
+*.log
+
+# Evaluation harness (kept local — not pushed)
+eval_results/
+scripts/
+
+# Editors / IDEs
+.idea/
+.vscode/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db

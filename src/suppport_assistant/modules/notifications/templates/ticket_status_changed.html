@@ -1,0 +1,11 @@
+<!doctype html>
+<html>
+  <body style="font-family: sans-serif; color: #1f2937">
+    <h2>Ticket #{{ ticket.id }} updated</h2>
+    <p>
+      <strong>{{ ticket.subject }}</strong> is now
+      <strong>{{ ticket.status.value }}</strong>.
+    </p>
+    <p>Priority: {{ ticket.priority.value }}</p>
+  </body>
+</html>

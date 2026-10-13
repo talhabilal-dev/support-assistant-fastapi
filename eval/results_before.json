@@ -1,0 +1,5113 @@
+{
+  "label": "before-guard",
+  "generated_at": "2026-10-13T07:49:54.033575+00:00",
+  "questions_file": "eval/questions.json",
+  "guard": false,
+  "runs": [
+    {
+      "cutoff": 0.65,
+      "summary": {
+        "correct": {
+          "n": 15,
+          "declined": 1,
+          "chunks": 55
+        },
+        "partial": {
+          "n": 12,
+          "declined": 0,
+          "chunks": 41
+        },
+        "irrelevant": {
+          "n": 13,
+          "declined": 10,
+          "chunks": 10
+        }
+      },
+      "records": [
+        {
+          "id": 1,
+          "bucket": "correct",
+          "question": "What is the return window for most items?",
+          "answer": "I could not find that information in the documents.",
+          "retrieved": [
+            {
+              "chunk_id": 9,
+              "distance": 0.6602
+            },
+            {
+              "chunk_id": 11,
+              "distance": 0.6892
+            },
+            {
+              "chunk_id": 10,
+              "distance": 0.7151
+            },
+            {
+              "chunk_id": 8,
+              "distance": 0.7338
+            },
+            {
+              "chunk_id": 6,
+              "distance": 0.7514
+            }
+          ],
+          "retrieved_after_cutoff": [],
+          "cited_sources": [],
+          "declined": true,
+          "latency_s": 7.79
+        },
+        {
+          "id": 2,
+          "bucket": "correct",
+          "question": "How much is the student discount?",
+          "answer": "The student discount is 5% off eligible products with valid student ID verification (source: chunk 5).",
+          "retrieved": [
+            {
+              "chunk_id": 6,
+              "distance": 0.4476
+            },
+            {
+              "chunk_id": 5,
+              "distance": 0.4591
+            },
+            {
+              "chunk_id": 7,
+              "distance": 0.5052
+            },
+            {
+              "chunk_id": 8,
+              "distance": 0.5393
+            },
+            {
+              "chunk_id": 9,
+              "distance": 0.7141
+            }
+          ],
+          "retrieved_after_cutoff": [
+            6,
+            5,
+            7,
+            8
+          ],
+          "cited_sources": [
+            "talhabilaldev Discount Policy (chunk 6)",
+            "talhabilaldev Discount Policy (chunk 5)",
+            "talhabilaldev Discount Policy (chunk 7)",
+            "talhabilaldev Discount Policy (chunk 8)"
+          ],
+          "declined": false,
+          "latency_s": 3.15
+        },
+        {
+          "id": 3,
+          "bucket": "correct",
+          "question": "How do I claim the student discount?",
+          "answer": "To claim the student discount, you need to send a copy of your valid student ID or school email to support@talhabilaldev.com. A personal code will be issued within 2 business days, which will be valid for 12 months (source: chunk 7).",
+          "retrieved": [
+            {
+              "chunk_id": 7,
+              "distance": 0.5011
+            },
+            {
+              "chunk_id": 5,
+              "distance": 0.5018
+            },
+            {
+              "chunk_id": 6,
+              "distance": 0.5026
+            },
+            {
+              "chunk_id": 8,
+              "distance": 0.5716
+            },
+            {
+              "chunk_id": 9,
+              "distance": 0.7258
+            }
+          ],
+          "retrieved_after_cutoff": [
+            7,
+            5,
+            6,
+            8
+          ],
+          "cited_sources": [
+            "talhabilaldev Discount Policy (chunk 7)",
+            "talhabilaldev Discount Policy (chunk 5)",
+            "talhabilaldev Discount Policy (chunk 6)",
+            "talhabilaldev Discount Policy (chunk 8)"
+          ],
+          "declined": false,
+          "latency_s": 3.59
+        },
+        {
+          "id": 4,
+          "bucket": "correct",
+          "question": "What is the maximum combined discount for bundles and bulk orders during a seasonal sale?",
+          "answer": "The maximum combined discount for bundles and bulk orders during a seasonal sale is 25% off (source: chunk 6).",
+          "retrieved": [
+            {
+              "chunk_id": 6,
+              "distance": 0.3635
+            },
+            {
+              "chunk_id": 5,
+              "distance": 0.4682
+            },
+            {
+              "chunk_id": 8,
+              "distance": 0.5774
+            },
+            {
+              "chunk_id": 7,
+              "distance": 0.5985
+            },
+            {
+              "chunk_id": 9,
+              "distance": 0.7586
+            }
+          ],
+          "retrieved_after_cutoff": [
+            6,
+            5,
+            8,
+            7
+          ],
+          "cited_sources": [
+            "talhabilaldev Discount Policy (chunk 6)",
+            "talhabilaldev Discount Policy (chunk 5)",
+            "talhabilaldev Discount Policy (chunk 8)",
+            "talhabilaldev Discount Policy (chunk 7)"
+          ],
+          "declined": false,
+          "latency_s": 2.96
+        },
+        {
+          "id": 5,
+          "bucket": "correct",
+          "question": "How much is the bundle discount?",
+          "answer": "The bundle discount is 10% off when you buy a laptop, phone, or tablet together with two or more accessories (source: chunk 5).",
+          "retrieved": [
+            {
+              "chunk_id": 6,
+              "distance": 0.4223
+            },
+            {
+              "chunk_id": 5,
+              "distance": 0.472
+            },
+            {
+              "chunk_id": 8,
+              "distance": 0.5444
+            },
+            {
+              "chunk_id": 7,
+              "distance": 0.571
+            },
+            {
+              "chunk_id": 9,
+              "distance": 0.754
+            }
+          ],
+          "retrieved_after_cutoff": [
+            6,
+            5,
+            8,
+            7
+          ],
+          "cited_sources": [
+            "talhabilaldev Discount Policy (chunk 6)",
+            "talhabilaldev Discount Policy (chunk 5)",
+            "talhabilaldev Discount Policy (chunk 8)",
+            "talhabilaldev Discount Policy (chunk 7)"
+          ],
+          "declined": false,
+          "latency_s": 3.97
+        },
+        {
+          "id": 6,
+          "bucket": "correct",
+          "question": "What is the seasonal sale discount?",
+          "answer": "The seasonal sale discount can be up to 20% off selected items during events such as Black Friday, Eid, and New Year sales (source: chunk 5).",
+          "retrieved": [
+            {
+              "chunk_id": 6,
+              "distance": 0.476
+            },
+            {
+              "chunk_id": 5,
+              "distance": 0.5084
+            },
+            {
+              "chunk_id": 8,
+              "distance": 0.5585
+            },
+            {
+              "chunk_id": 7,
+              "distance": 0.6005
+            },
+            {
+              "chunk_id": 9,
+              "distance": 0.7132
+            }
+          ],
+          "retrieved_after_cutoff": [
+            6,
+            5,
+            8,
+            7
+          ],
+          "cited_sources": [
+            "talhabilaldev Discount Policy (chunk 6)",
+            "talhabilaldev Discount Policy (chunk 5)",
+            "talhabilaldev Discount Policy (chunk 8)",
+            "talhabilaldev Discount Policy (chunk 7)"
+          ],
+          "declined": false,
+          "latency_s": 2.8
+        },
+        {
+          "id": 7,
+          "bucket": "correct",
+          "question": "What is the first order discount?",
+          "answer": "The first order discount is 8% off your first order with a welcome code, up to a maximum of $40 (source: chunk 5).",
+          "retrieved": [
+            {
+              "chunk_id": 6,
+              "distance": 0.5297
+            },
+            {
+              "chunk_id": 5,
+              "distance": 0.5675
+            },
+            {
+              "chunk_id": 8,
+              "distance": 0.598
+            },
+            {
+              "chunk_id": 7,
+              "distance": 0.6034
+            },
+            {
+              "chunk_id": 12,
+              "distance": 0.7781
+            }
+          ],
+          "retrieved_after_cutoff": [
+            6,
+            5,
+            8,
+            7
+          ],
+          "cited_sources": [
+            "talhabilaldev Discount Policy (chunk 6)",
+            "talhabilaldev Discount Policy (chunk 5)",
+            "talhabilaldev Discount Policy (chunk 8)",
+            "talhabilaldev Discount Policy (chunk 7)"
+          ],
+          "declined": false,
+          "latency_s": 3.41
+        },
+        {
+          "id": 8,
+          "bucket": "correct",
+          "question": "How much is the referral reward?",
+          "answer": "The referral reward is a $10 credit for both you and your friend when they place their first order of $100 or more (source: chunk 5).",
+          "retrieved": [
+            {
+              "chunk_id": 7,
+              "distance": 0.5465
+            },
+            {
+              "chunk_id": 6,
+              "distance": 0.6384
+            },
+            {
+              "chunk_id": 5,
+              "distance": 0.6496
+            },
+            {
+              "chunk_id": 8,
+              "distance": 0.7082
+            },
+            {
+              "chunk_id": 9,
+              "distance": 0.7664
+            }
+          ],
+          "retrieved_after_cutoff": [
+            7,
+            6,
+            5
+          ],
+          "cited_sources": [
+            "talhabilaldev Discount Policy (chunk 7)",
+            "talhabilaldev Discount Policy (chunk 6)",
+            "talhabilaldev Discount Policy (chunk 5)"
+          ],
+          "declined": false,
+          "latency_s": 2.44
+        },
+        {
+          "id": 9,
+          "bucket": "correct",
+          "question": "What bulk discount applies for 6 to 10 units?",
+          "answer": "The bulk discount for purchasing 6 to 10 units is 8% off (source: chunk 6).",
+          "retrieved": [
+            {
+              "chunk_id": 6,
+              "distance": 0.4336
+            },
+            {
+              "chunk_id": 5,
+              "distance": 0.5169
+            },
+            {
+              "chunk_id": 8,
+              "distance": 0.5832
+            },
+            {
+              "chunk_id": 7,
+              "distance": 0.647
+            },
+            {
+              "chunk_id": 9,
+              "distance": 0.7703
+            }
+          ],
+          "retrieved_after_cutoff": [
+            6,
+            5,
+            8,
+            7
+          ],
+          "cited_sources": [
+            "talhabilaldev Discount Policy (chunk 6)",
+            "talhabilaldev Discount Policy (chunk 5)",
+            "talhabilaldev Discount Policy (chunk 8)",
+            "talhabilaldev Discount Policy (chunk 7)"
+          ],
+          "declined": false,
+          "latency_s": 2.13
+        },
+        {
+          "id": 10,
+          "bucket": "correct",
+          "question": "How long do refunds take after a return?",
+          "answer": "Refunds are issued to your original payment method within 5 to 10 business days after the return is received and inspected (source: chunk 12).",
+          "retrieved": [
+            {
+              "chunk_id": 12,
+              "distance": 0.5006
+            },
+            {
+              "chunk_id": 10,
+              "distance": 0.5097
+            },
+            {
+              "chunk_id": 9,
+              "distance": 0.5336
+            },
+            {
+              "chunk_id": 11,
+              "distance": 0.5352
+            },
+            {
+              "chunk_id": 7,
+              "distance": 0.5744
+            }
+          ],
+          "retrieved_after_cutoff": [
+            12,
+            10,
+            9,
+            11,
+            7
+          ],
+          "cited_sources": [
+            "talhabilaldev Return Policy (chunk 12)",
+            "talhabilaldev Return Policy (chunk 10)",
+            "talhabilaldev Return Policy (chunk 9)",
+            "talhabilaldev Return Policy (chunk 11)",
+            "talhabilaldev Discount Policy (chunk 7)"
+          ],
+          "declined": false,
+          "latency_s": 2.33
+        },
+        {
+          "id": 11,
+          "bucket": "correct",
+          "question": "What is the restocking fee for opened items?",
+          "answer": "The restocking fee for opened items is up to 10% of the purchase price, provided the items are in like-new condition with all accessories included (source: chunk 9).",
+          "retrieved": [
+            {
+              "chunk_id": 9,
+              "distance": 0.5939
+            },
+            {
+              "chunk_id": 10,
+              "distance": 0.6171
+            },
+            {
+              "chunk_id": 6,
+              "distance": 0.6312
+            },
+            {
+              "chunk_id": 8,
+              "distance": 0.6335
+            },
+            {
+              "chunk_id": 12,
+              "distance": 0.6409
+            }
+          ],
+          "retrieved_after_cutoff": [
+            9,
+            10,
+            6,
+            8,
+            12
+          ],
+          "cited_sources": [
+            "talhabilaldev Return Policy (chunk 9)",
+            "talhabilaldev Return Policy (chunk 10)",
+            "talhabilaldev Discount Policy (chunk 6)",
+            "talhabilaldev Discount Policy (chunk 8)",
+            "talhabilaldev Return Policy (chunk 12)"
+          ],
+          "declined": false,
+          "latency_s": 2.82
+        },
+        {
+          "id": 12,
+          "bucket": "correct",
+          "question": "What items are excluded from discounts?",
+          "answer": "Discounts do not apply to the following items:\n\n1. Gift cards and digital licenses or software\n2. Items marked \"Final Sale\" or \"Price Locked\"\n3. Pre-orders and newly launched products during their first 30 days\n4. Shipping fees and taxes (source: chunk 7).",
+          "retrieved": [
+            {
+              "chunk_id": 6,
+              "distance": 0.5006
+            },
+            {
+              "chunk_id": 7,
+              "distance": 0.5315
+            },
+            {
+              "chunk_id": 8,
+              "distance": 0.5352
+            },
+            {
+              "chunk_id": 5,
+              "distance": 0.5452
+            },
+            {
+              "chunk_id": 9,
+              "distance": 0.689
+            }
+          ],
+          "retrieved_after_cutoff": [
+            6,
+            7,
+            8,
+            5
+          ],
+          "cited_sources": [
+            "talhabilaldev Discount Policy (chunk 6)",
+            "talhabilaldev Discount Policy (chunk 7)",
+            "talhabilaldev Discount Policy (chunk 8)",
+            "talhabilaldev Discount Policy (chunk 5)"
+          ],
+          "declined": false,
+          "latency_s": 2.83
+        },
+        {
+          "id": 13,
+          "bucket": "correct",
+          "question": "How do I start a return?",
+          "answer": "To start a return, follow these steps:\n\n1. Email support@talhabilaldev.com with your order number and reason for the return.\n2. Wait for approval and your Return Authorization (RA) number.\n3. Pack the item securely in its original packaging and include the RA number.\n4. Ship it to the address provided, using a tracked service.\n\nMake sure to back up your data and sign out of all accounts if the item is a device that stores data (source: chunk 11).",
+          "retrieved": [
+            {
+              "chunk_id": 11,
+              "distance": 0.5336
+            },
+            {
+              "chunk_id": 10,
+              "distance": 0.6109
+            },
+            {
+              "chunk_id": 9,
+              "distance": 0.6689
+            },
+            {
+              "chunk_id": 12,
+              "distance": 0.6765
+            },
+            {
+              "chunk_id": 8,
+              "distance": 0.7651
+            }
+          ],
+          "retrieved_after_cutoff": [
+            11,
+            10
+          ],
+          "cited_sources": [
+            "talhabilaldev Return Policy (chunk 11)",
+            "talhabilaldev Return Policy (chunk 10)"
+          ],
+          "declined": false,
+          "latency_s": 2.67
+        },
+        {
+          "id": 14,
+          "bucket": "correct",
+          "question": "What should I do before sending a device for a return?",
+          "answer": "Before sending a device for a return, you should:\n\n1. Back up your data.\n2. Sign out of all accounts, including any device locks (like Find My Device).\n3. Perform a factory reset on the device.\n\nThese steps are necessary because the return cannot be processed on devices with active account locks (source: chunk 11).",
+          "retrieved": [
+            {
+              "chunk_id": 11,
+              "distance": 0.4206
+            },
+            {
+              "chunk_id": 10,
+              "distance": 0.4852
+            },
+            {
+              "chunk_id": 9,
+              "distance": 0.545
+            },
+            {
+              "chunk_id": 12,
+              "distance": 0.5913
+            },
+            {
+              "chunk_id": 8,
+              "distance": 0.6822
+            }
+          ],
+          "retrieved_after_cutoff": [
+            11,
+            10,
+            9,
+            12
+          ],
+          "cited_sources": [
+            "talhabilaldev Return Policy (chunk 11)",
+            "talhabilaldev Return Policy (chunk 10)",
+            "talhabilaldev Return Policy (chunk 9)",
+            "talhabilaldev Return Policy (chunk 12)"
+          ],
+          "declined": false,
+          "latency_s": 2.75
+        },
+        {
+          "id": 15,
+          "bucket": "correct",
+          "question": "How long do referral credits last?",
+          "answer": "Referral credits expire 90 days after they are issued (source: chunk 7).",
+          "retrieved": [
+            {
+              "chunk_id": 7,
+              "distance": 0.4173
+            },
+            {
+              "chunk_id": 8,
+              "distance": 0.6095
+            },
+            {
+              "chunk_id": 5,
+              "distance": 0.6388
+            },
+            {
+              "chunk_id": 6,
+              "distance": 0.6406
+            },
+            {
+              "chunk_id": 9,
+              "distance": 0.6824
+            }
+          ],
+          "retrieved_after_cutoff": [
+            7,
+            8,
+            5,
+            6
+          ],
+          "cited_sources": [
+            "talhabilaldev Discount Policy (chunk 7)",
+            "talhabilaldev Discount Policy (chunk 8)",
+            "talhabilaldev Discount Policy (chunk 5)",
+            "talhabilaldev Discount Policy (chunk 6)"
+          ],
+          "declined": false,
+          "latency_s": 2.91
+        },
+        {
+          "id": 16,
+          "bucket": "partial",
+          "question": "What is the warranty period for laptops?",
+          "answer": "The documents do not specify the warranty period for laptops. They mention that all products are covered by the manufacturer's warranty, but do not provide details on the duration of that warranty (source: chunk 10).",
+          "retrieved": [
+            {
+              "chunk_id": 11,
+              "distance": 0.5708
+            },
+            {
+              "chunk_id": 9,
+              "distance": 0.6259
+            },
+            {
+              "chunk_id": 10,
+              "distance": 0.6422
+            },
+            {
+              "chunk_id": 8,
+              "distance": 0.6858
+            },
+            {
+              "chunk_id": 5,
+              "distance": 0.7033
+            }
+          ],
+          "retrieved_after_cutoff": [
+            11,
+            9,
+            10
+          ],
+          "cited_sources": [
+            "talhabilaldev Return Policy (chunk 11)",
+            "talhabilaldev Return Policy (chunk 9)",
+            "talhabilaldev Return Policy (chunk 10)"
+          ],
+          "declined": false,
+          "latency_s": 2.52
+        },
+        {
+          "id": 17,
+          "bucket": "partial",
+          "question": "Can I return an item after 30 days if it is defective?",
+          "answer": "The documents state that if an item arrives defective or damaged, you should contact customer support within 7 days of delivery to report the issue. You will then have the option for a free replacement or a full refund, including original shipping costs (source: chunk 10). \n\nThere is no information provided in the documents regarding returning a defective item after 30 days.",
+          "retrieved": [
+            {
+              "chunk_id": 10,
+              "distance": 0.5488
+            },
+            {
+              "chunk_id": 9,
+              "distance": 0.5557
+            },
+            {
+              "chunk_id": 12,
+              "distance": 0.6106
+            },
+            {
+              "chunk_id": 8,
+              "distance": 0.6131
+            },
+            {
+              "chunk_id": 11,
+              "distance": 0.6196
+            }
+          ],
+          "retrieved_after_cutoff": [
+            10,
+            9,
+            12,
+            8,
+            11
+          ],
+          "cited_sources": [
+            "talhabilaldev Return Policy (chunk 10)",
+            "talhabilaldev Return Policy (chunk 9)",
+            "talhabilaldev Return Policy (chunk 12)",
+            "talhabilaldev Discount Policy (chunk 8)",
+            "talhabilaldev Return Policy (chunk 11)"
+          ],
+          "declined": false,
+          "latency_s": 2.87
+        },
+        {
+          "id": 18,
+          "bucket": "partial",
+          "question": "What is the maximum total discount I can get on one order?",
+          "answer": "The maximum total discount you can get on one order is 25% off when combining bundle and bulk discounts with seasonal sale prices (source: chunk 6). Additionally, referral credits can be applied on top of any discount, up to 50% of the order subtotal (source: chunk 7).",
+          "retrieved": [
+            {
+              "chunk_id": 6,
+              "distance": 0.4313
+            },
+            {
+              "chunk_id": 5,
+              "distance": 0.4908
+            },
+            {
+              "chunk_id": 7,
+              "distance": 0.5229
+            },
+            {
+              "chunk_id": 8,
+              "distance": 0.5236
+            },
+            {
+              "chunk_id": 9,
+              "distance": 0.7345
+            }
+          ],
+          "retrieved_after_cutoff": [
+            6,
+            5,
+            7,
+            8
+          ],
+          "cited_sources": [
+            "talhabilaldev Discount Policy (chunk 6)",
+            "talhabilaldev Discount Policy (chunk 5)",
+            "talhabilaldev Discount Policy (chunk 7)",
+            "talhabilaldev Discount Policy (chunk 8)"
+          ],
+          "declined": false,
+          "latency_s": 2.87
+        },
+        {
+          "id": 19,
+          "bucket": "partial",
+          "question": "Is the restocking fee always exactly 10%?",
+          "answer": "The documents do not specify whether the restocking fee is always exactly 10%. Therefore, I could not find that information.",
+          "retrieved": [
+            {
+              "chunk_id": 6,
+              "distance": 0.6458
+            },
+            {
+              "chunk_id": 8,
+              "distance": 0.6852
+            },
+            {
+              "chunk_id": 12,
+              "distance": 0.6861
+            },
+            {
+              "chunk_id": 9,
+              "distance": 0.6913
+            },
+            {
+              "chunk_id": 10,
+              "distance": 0.6986
+            },
+            {
+              "chunk_id": 6,
+              "distance": 0.568
+            },
+            {
+              "chunk_id": 5,
+              "distance": 0.6429
+            },
+            {
+              "chunk_id": 8,
+              "distance": 0.665
+            },
+            {
+              "chunk_id": 9,
+              "distance": 0.6788
+            },
+            {
+              "chunk_id": 12,
+              "distance": 0.6907
+            }
+          ],
+          "retrieved_after_cutoff": [
+            6,
+            6,
+            5
+          ],
+          "cited_sources": [
+            "talhabilaldev Discount Policy (chunk 6)",
+            "talhabilaldev Discount Policy (chunk 5)"
+          ],
+          "declined": false,
+          "latency_s": 4.1
+        },
+        {
+          "id": 20,
+          "bucket": "partial",
+          "question": "Can I combine my student discount with a newsletter promo code?",
+          "answer": "You cannot combine a student discount with a newsletter promo code (source: chunk 6).",
+          "retrieved": [
+            {
+              "chunk_id": 6,
+              "distance": 0.4223
+            },
+            {
+              "chunk_id": 5,
+              "distance": 0.5214
+            },
+            {
+              "chunk_id": 7,
+              "distance": 0.5654
+            },
+            {
+              "chunk_id": 8,
+              "distance": 0.634
+            },
+            {
+              "chunk_id": 9,
+              "distance": 0.8168
+            }
+          ],
+          "retrieved_after_cutoff": [
+            6,
+            5,
+            7,
+            8
+          ],
+          "cited_sources": [
+            "talhabilaldev Discount Policy (chunk 6)",
+            "talhabilaldev Discount Policy (chunk 5)",
+            "talhabilaldev Discount Policy (chunk 7)",
+            "talhabilaldev Discount Policy (chunk 8)"
+          ],
+          "declined": false,
+          "latency_s": 3.09
+        },
+        {
+          "id": 21,
+          "bucket": "partial",
+          "question": "What happens to my bundle discount if I return one item from the bundle?",
+          "answer": "If you return one item from a bundle, the bundle discount may be recalculated on the remaining items (source: chunk 8).",
+          "retrieved": [
+            {
+              "chunk_id": 6,
+              "distance": 0.4425
+            },
+            {
+              "chunk_id": 5,
+              "distance": 0.4766
+            },
+            {
+              "chunk_id": 8,
+              "distance": 0.4836
+            },
+            {
+              "chunk_id": 7,
+              "distance": 0.5261
+            },
+            {
+              "chunk_id": 9,
+              "distance": 0.6278
+            }
+          ],
+          "retrieved_after_cutoff": [
+            6,
+            5,
+            8,
+            7,
+            9
+          ],
+          "cited_sources": [
+            "talhabilaldev Discount Policy (chunk 6)",
+            "talhabilaldev Discount Policy (chunk 5)",
+            "talhabilaldev Discount Policy (chunk 8)",
+            "talhabilaldev Discount Policy (chunk 7)",
+            "talhabilaldev Return Policy (chunk 9)"
+          ],
+          "declined": false,
+          "latency_s": 2.44
+        },
+        {
+          "id": 22,
+          "bucket": "partial",
+          "question": "Do refunds include the original shipping cost?",
+          "answer": "Refunds do not include the original shipping cost unless the return is due to an error on the seller's part or if the item is defective (source: chunk 12).",
+          "retrieved": [
+            {
+              "chunk_id": 12,
+              "distance": 0.4999
+            },
+            {
+              "chunk_id": 11,
+              "distance": 0.6314
+            },
+            {
+              "chunk_id": 9,
+              "distance": 0.6358
+            },
+            {
+              "chunk_id": 8,
+              "distance": 0.6467
+            },
+            {
+              "chunk_id": 10,
+              "distance": 0.6475
+            }
+          ],
+          "retrieved_after_cutoff": [
+            12,
+            11,
+            9,
+            8,
+            10
+          ],
+          "cited_sources": [
+            "talhabilaldev Return Policy (chunk 12)",
+            "talhabilaldev Return Policy (chunk 11)",
+            "talhabilaldev Return Policy (chunk 9)",
+            "talhabilaldev Discount Policy (chunk 8)",
+            "talhabilaldev Return Policy (chunk 10)"
+          ],
+          "declined": false,
+          "latency_s": 2.66
+        },
+        {
+          "id": 23,
+          "bucket": "partial",
+          "question": "How do I start a manufacturer's warranty claim?",
+          "answer": "To start a manufacturer's warranty claim, you should email support@talhabilaldev.com with your order number and the reason for the claim (source: chunk 10).",
+          "retrieved": [
+            {
+              "chunk_id": 11,
+              "distance": 0.474
+            },
+            {
+              "chunk_id": 10,
+              "distance": 0.5986
+            },
+            {
+              "chunk_id": 9,
+              "distance": 0.6632
+            },
+            {
+              "chunk_id": 12,
+              "distance": 0.7049
+            },
+            {
+              "chunk_id": 8,
+              "distance": 0.7138
+            }
+          ],
+          "retrieved_after_cutoff": [
+            11,
+            10
+          ],
+          "cited_sources": [
+            "talhabilaldev Return Policy (chunk 11)",
+            "talhabilaldev Return Policy (chunk 10)"
+          ],
+          "declined": false,
+          "latency_s": 2.46
+        },
+        {
+          "id": 24,
+          "bucket": "partial",
+          "question": "Can I get a price adjustment if an item I bought drops in price?",
+          "answer": "You can get a price adjustment if an item you purchased drops in price within 7 days of your order. To receive the refund for the difference, you need to contact customer support with your order number. However, this does not apply to flash sales, clearance items, or limited-time promo events (source: chunk 8).",
+          "retrieved": [
+            {
+              "chunk_id": 8,
+              "distance": 0.5783
+            },
+            {
+              "chunk_id": 5,
+              "distance": 0.6275
+            },
+            {
+              "chunk_id": 6,
+              "distance": 0.6667
+            },
+            {
+              "chunk_id": 9,
+              "distance": 0.6796
+            },
+            {
+              "chunk_id": 12,
+              "distance": 0.6996
+            }
+          ],
+          "retrieved_after_cutoff": [
+            8,
+            5
+          ],
+          "cited_sources": [
+            "talhabilaldev Discount Policy (chunk 8)",
+            "talhabilaldev Discount Policy (chunk 5)"
+          ],
+          "declined": false,
+          "latency_s": 2.66
+        },
+        {
+          "id": 25,
+          "bucket": "partial",
+          "question": "Can I get a student discount on a bulk order together with a seasonal sale?",
+          "answer": "You can combine bulk purchase discounts with seasonal sale prices, up to a combined maximum of 25% off. However, student discounts cannot be combined with other discounts such as first order or newsletter codes (source: chunk 6). \n\nThe documents do not specify if a student discount can be applied to a bulk order during a seasonal sale, so that part is not covered.",
+          "retrieved": [
+            {
+              "chunk_id": 6,
+              "distance": 0.3916
+            },
+            {
+              "chunk_id": 5,
+              "distance": 0.4485
+            },
+            {
+              "chunk_id": 8,
+              "distance": 0.5682
+            },
+            {
+              "chunk_id": 7,
+              "distance": 0.5735
+            },
+            {
+              "chunk_id": 9,
+              "distance": 0.7166
+            }
+          ],
+          "retrieved_after_cutoff": [
+            6,
+            5,
+            8,
+            7
+          ],
+          "cited_sources": [
+            "talhabilaldev Discount Policy (chunk 6)",
+            "talhabilaldev Discount Policy (chunk 5)",
+            "talhabilaldev Discount Policy (chunk 8)",
+            "talhabilaldev Discount Policy (chunk 7)"
+          ],
+          "declined": false,
+          "latency_s": 2.87
+        },
+        {
+          "id": 26,
+          "bucket": "partial",
+          "question": "Is the return window different for accessories than for electronics?",
+          "answer": "The return window for most items, including electronics and accessories, is 14 days from the delivery date. Accessories must be unused and in their original packaging to be eligible for return (source: chunk 9). The documents do not specify if the return window differs between accessories and electronics, so that part is not covered.",
+          "retrieved": [
+            {
+              "chunk_id": 9,
+              "distance": 0.6046
+            },
+            {
+              "chunk_id": 11,
+              "distance": 0.6113
+            },
+            {
+              "chunk_id": 10,
+              "distance": 0.6672
+            },
+            {
+              "chunk_id": 6,
+              "distance": 0.7182
+            },
+            {
+              "chunk_id": 5,
+              "distance": 0.7411
+            }
+          ],
+          "retrieved_after_cutoff": [
+            9,
+            11
+          ],
+          "cited_sources": [
+            "talhabilaldev Return Policy (chunk 9)",
+            "talhabilaldev Return Policy (chunk 11)"
+          ],
+          "declined": false,
+          "latency_s": 2.87
+        },
+        {
+          "id": 27,
+          "bucket": "partial",
+          "question": "What exactly is required to prove an item is defective or damaged?",
+          "answer": "To prove an item is defective or damaged, you need to contact the support team within 7 days of delivery and provide your order number along with photos or a short video of the issue (source: chunk 10).",
+          "retrieved": [
+            {
+              "chunk_id": 10,
+              "distance": 0.5862
+            },
+            {
+              "chunk_id": 11,
+              "distance": 0.6166
+            },
+            {
+              "chunk_id": 9,
+              "distance": 0.6526
+            },
+            {
+              "chunk_id": 12,
+              "distance": 0.6834
+            },
+            {
+              "chunk_id": 8,
+              "distance": 0.7129
+            }
+          ],
+          "retrieved_after_cutoff": [
+            10,
+            11
+          ],
+          "cited_sources": [
+            "talhabilaldev Return Policy (chunk 10)",
+            "talhabilaldev Return Policy (chunk 11)"
+          ],
+          "declined": false,
+          "latency_s": 2.66
+        },
+        {
+          "id": 28,
+          "bucket": "irrelevant",
+          "question": "What is your phone number?",
+          "answer": "I could not find that information in the documents.",
+          "retrieved": [
+            {
+              "chunk_id": 11,
+              "distance": 0.7566
+            },
+            {
+              "chunk_id": 8,
+              "distance": 0.7648
+            },
+            {
+              "chunk_id": 12,
+              "distance": 0.7713
+            },
+            {
+              "chunk_id": 9,
+              "distance": 0.7762
+            },
+            {
+              "chunk_id": 10,
+              "distance": 0.7909
+            }
+          ],
+          "retrieved_after_cutoff": [],
+          "cited_sources": [],
+          "declined": true,
+          "latency_s": 2.59
+        },
+        {
+          "id": 29,
+          "bucket": "irrelevant",
+          "question": "Who is the CEO of talhabilaldev?",
+          "answer": "I could not find that information in the documents.",
+          "retrieved": [
+            {
+              "chunk_id": 5,
+              "distance": 0.5157
+            },
+            {
+              "chunk_id": 9,
+              "distance": 0.5544
+            },
+            {
+              "chunk_id": 8,
+              "distance": 0.5651
+            },
+            {
+              "chunk_id": 12,
+              "distance": 0.5757
+            },
+            {
+              "chunk_id": 10,
+              "distance": 0.667
+            }
+          ],
+          "retrieved_after_cutoff": [
+            5,
+            9,
+            8,
+            12
+          ],
+          "cited_sources": [
+            "talhabilaldev Discount Policy (chunk 5)",
+            "talhabilaldev Return Policy (chunk 9)",
+            "talhabilaldev Discount Policy (chunk 8)",
+            "talhabilaldev Return Policy (chunk 12)"
+          ],
+          "declined": true,
+          "latency_s": 2.48
+        },
+        {
+          "id": 30,
+          "bucket": "irrelevant",
+          "question": "Do you price match other retailers?",
+          "answer": "I could not find information regarding price matching with other retailers in the documents.",
+          "retrieved": [
+            {
+              "chunk_id": 6,
+              "distance": 0.5928
+            },
+            {
+              "chunk_id": 5,
+              "distance": 0.6374
+            },
+            {
+              "chunk_id": 8,
+              "distance": 0.6617
+            },
+            {
+              "chunk_id": 7,
+              "distance": 0.7058
+            },
+            {
+              "chunk_id": 9,
+              "distance": 0.7203
+            }
+          ],
+          "retrieved_after_cutoff": [
+            6,
+            5
+          ],
+          "cited_sources": [
+            "talhabilaldev Discount Policy (chunk 6)",
+            "talhabilaldev Discount Policy (chunk 5)"
+          ],
+          "declined": false,
+          "latency_s": 2.51
+        },
+        {
+          "id": 31,
+          "bucket": "irrelevant",
+          "question": "Do you ship internationally or to the EU?",
+          "answer": "I could not find that information in the documents.",
+          "retrieved": [
+            {
+              "chunk_id": 6,
+              "distance": 0.7376
+            },
+            {
+              "chunk_id": 12,
+              "distance": 0.7517
+            },
+            {
+              "chunk_id": 10,
+              "distance": 0.754
+            },
+            {
+              "chunk_id": 9,
+              "distance": 0.7556
+            },
+            {
+              "chunk_id": 11,
+              "distance": 0.7864
+            }
+          ],
+          "retrieved_after_cutoff": [],
+          "cited_sources": [],
+          "declined": true,
+          "latency_s": 2.46
+        },
+        {
+          "id": 32,
+          "bucket": "irrelevant",
+          "question": "Which payment methods do you accept?",
+          "answer": "I could not find that information in the documents.",
+          "retrieved": [
+            {
+              "chunk_id": 8,
+              "distance": 0.6573
+            },
+            {
+              "chunk_id": 12,
+              "distance": 0.6599
+            },
+            {
+              "chunk_id": 6,
+              "distance": 0.6637
+            },
+            {
+              "chunk_id": 5,
+              "distance": 0.665
+            },
+            {
+              "chunk_id": 7,
+              "distance": 0.6728
+            }
+          ],
+          "retrieved_after_cutoff": [],
+          "cited_sources": [],
+          "declined": true,
+          "latency_s": 2.46
+        },
+        {
+          "id": 33,
+          "bucket": "irrelevant",
+          "question": "Can I cancel my order after placing it?",
+          "answer": "I could not find that information in the documents.",
+          "retrieved": [
+            {
+              "chunk_id": 8,
+              "distance": 0.6599
+            },
+            {
+              "chunk_id": 12,
+              "distance": 0.6838
+            },
+            {
+              "chunk_id": 7,
+              "distance": 0.7001
+            },
+            {
+              "chunk_id": 10,
+              "distance": 0.7069
+            },
+            {
+              "chunk_id": 9,
+              "distance": 0.7385
+            }
+          ],
+          "retrieved_after_cutoff": [],
+          "cited_sources": [],
+          "declined": true,
+          "latency_s": 2.02
+        },
+        {
+          "id": 34,
+          "bucket": "irrelevant",
+          "question": "How do I track my order?",
+          "answer": "I could not find that information in the documents.",
+          "retrieved": [
+            {
+              "chunk_id": 11,
+              "distance": 0.6665
+            },
+            {
+              "chunk_id": 12,
+              "distance": 0.6755
+            },
+            {
+              "chunk_id": 10,
+              "distance": 0.6941
+            },
+            {
+              "chunk_id": 8,
+              "distance": 0.7107
+            },
+            {
+              "chunk_id": 9,
+              "distance": 0.7239
+            }
+          ],
+          "retrieved_after_cutoff": [],
+          "cited_sources": [],
+          "declined": true,
+          "latency_s": 2.42
+        },
+        {
+          "id": 35,
+          "bucket": "irrelevant",
+          "question": "Do you have a loyalty or rewards membership program?",
+          "answer": "I could not find information regarding a loyalty or rewards membership program in the documents.",
+          "retrieved": [
+            {
+              "chunk_id": 5,
+              "distance": 0.64
+            },
+            {
+              "chunk_id": 7,
+              "distance": 0.6547
+            },
+            {
+              "chunk_id": 6,
+              "distance": 0.6709
+            },
+            {
+              "chunk_id": 8,
+              "distance": 0.6963
+            },
+            {
+              "chunk_id": 9,
+              "distance": 0.7342
+            }
+          ],
+          "retrieved_after_cutoff": [
+            5
+          ],
+          "cited_sources": [
+            "talhabilaldev Discount Policy (chunk 5)"
+          ],
+          "declined": false,
+          "latency_s": 2.73
+        },
+        {
+          "id": 36,
+          "bucket": "irrelevant",
+          "question": "Do you offer gift wrapping?",
+          "answer": "I could not find that information in the documents.",
+          "retrieved": [
+            {
+              "chunk_id": 6,
+              "distance": 0.7182
+            },
+            {
+              "chunk_id": 10,
+              "distance": 0.7242
+            },
+            {
+              "chunk_id": 9,
+              "distance": 0.7656
+            },
+            {
+              "chunk_id": 8,
+              "distance": 0.7816
+            },
+            {
+              "chunk_id": 5,
+              "distance": 0.7902
+            }
+          ],
+          "retrieved_after_cutoff": [],
+          "cited_sources": [],
+          "declined": true,
+          "latency_s": 2.25
+        },
+        {
+          "id": 37,
+          "bucket": "irrelevant",
+          "question": "Do you offer military or senior discounts?",
+          "answer": "The documents do not mention any military or senior discounts. They detail various types of discounts such as seasonal sales, bundle discounts, bulk purchase discounts, student discounts, and first order discounts, but do not include information on military or senior discounts (source: chunk 5, chunk 6, chunk 7).",
+          "retrieved": [
+            {
+              "chunk_id": 6,
+              "distance": 0.5794
+            },
+            {
+              "chunk_id": 5,
+              "distance": 0.5882
+            },
+            {
+              "chunk_id": 7,
+              "distance": 0.6322
+            },
+            {
+              "chunk_id": 8,
+              "distance": 0.6588
+            },
+            {
+              "chunk_id": 9,
+              "distance": 0.7826
+            }
+          ],
+          "retrieved_after_cutoff": [
+            6,
+            5,
+            7
+          ],
+          "cited_sources": [
+            "talhabilaldev Discount Policy (chunk 6)",
+            "talhabilaldev Discount Policy (chunk 5)",
+            "talhabilaldev Discount Policy (chunk 7)"
+          ],
+          "declined": false,
+          "latency_s": 3.07
+        },
+        {
+          "id": 38,
+          "bucket": "irrelevant",
+          "question": "Where are your physical store locations?",
+          "answer": "I could not find that information in the documents.",
+          "retrieved": [
+            {
+              "chunk_id": 9,
+              "distance": 0.7536
+            },
+            {
+              "chunk_id": 5,
+              "distance": 0.7844
+            },
+            {
+              "chunk_id": 10,
+              "distance": 0.7856
+            },
+            {
+              "chunk_id": 6,
+              "distance": 0.7868
+            },
+            {
+              "chunk_id": 8,
+              "distance": 0.7897
+            }
+          ],
+          "retrieved_after_cutoff": [],
+          "cited_sources": [],
+          "declined": true,
+          "latency_s": 2.66
+        },
+        {
+          "id": 39,
+          "bucket": "irrelevant",
+          "question": "Are you hiring, and how do I apply for a job?",
+          "answer": "I could not find that information in the documents.",
+          "retrieved": [
+            {
+              "chunk_id": 11,
+              "distance": 0.8259
+            },
+            {
+              "chunk_id": 5,
+              "distance": 0.8279
+            },
+            {
+              "chunk_id": 7,
+              "distance": 0.8355
+            },
+            {
+              "chunk_id": 10,
+              "distance": 0.8448
+            },
+            {
+              "chunk_id": 12,
+              "distance": 0.8485
+            }
+          ],
+          "retrieved_after_cutoff": [],
+          "cited_sources": [],
+          "declined": true,
+          "latency_s": 2.43
+        },
+        {
+          "id": 40,
+          "bucket": "irrelevant",
+          "question": "What is the weather like at your headquarters today?",
+          "answer": "I could not find that information in the documents.",
+          "retrieved": [
+            {
+              "chunk_id": 11,
+              "distance": 0.8348
+            },
+            {
+              "chunk_id": 6,
+              "distance": 0.8354
+            },
+            {
+              "chunk_id": 8,
+              "distance": 0.84
+            },
+            {
+              "chunk_id": 9,
+              "distance": 0.8492
+            },
+            {
+              "chunk_id": 5,
+              "distance": 0.8675
+            }
+          ],
+          "retrieved_after_cutoff": [],
+          "cited_sources": [],
+          "declined": true,
+          "latency_s": 2.28
+        }
+      ]
+    },
+    {
+      "cutoff": 0.75,
+      "summary": {
+        "correct": {
+          "n": 15,
+          "declined": 0,
+          "chunks": 68
+        },
+        "partial": {
+          "n": 12,
+          "declined": 0,
+          "chunks": 59
+        },
+        "irrelevant": {
+          "n": 13,
+          "declined": 4,
+          "chunks": 42
+        }
+      },
+      "records": [
+        {
+          "id": 1,
+          "bucket": "correct",
+          "question": "What is the return window for most items?",
+          "answer": "You may return most items within 14 days of the delivery date. To be eligible for a return, items must be unused or, for opened electronics, in the same condition you received them, with all original packaging, accessories, manuals, and cables (source: chunk 9).",
+          "retrieved": [
+            {
+              "chunk_id": 9,
+              "distance": 0.6602
+            },
+            {
+              "chunk_id": 11,
+              "distance": 0.6892
+            },
+            {
+              "chunk_id": 10,
+              "distance": 0.7151
+            },
+            {
+              "chunk_id": 8,
+              "distance": 0.7338
+            },
+            {
+              "chunk_id": 6,
+              "distance": 0.7514
+            }
+          ],
+          "retrieved_after_cutoff": [
+            9,
+            11,
+            10,
+            8
+          ],
+          "cited_sources": [
+            "talhabilaldev Return Policy (chunk 9)",
+            "talhabilaldev Return Policy (chunk 11)",
+            "talhabilaldev Return Policy (chunk 10)",
+            "talhabilaldev Discount Policy (chunk 8)"
+          ],
+          "declined": false,
+          "latency_s": 2.87
+        },
+        {
+          "id": 2,
+          "bucket": "correct",
+          "question": "How much is the student discount?",
+          "answer": "The student discount is 5% off eligible products with valid student ID verification (source: chunk 5).",
+          "retrieved": [
+            {
+              "chunk_id": 6,
+              "distance": 0.4476
+            },
+            {
+              "chunk_id": 5,
+              "distance": 0.4591
+            },
+            {
+              "chunk_id": 7,
+              "distance": 0.5052
+            },
+            {
+              "chunk_id": 8,
+              "distance": 0.5393
+            },
+            {
+              "chunk_id": 9,
+              "distance": 0.7141
+            }
+          ],
+          "retrieved_after_cutoff": [
+            6,
+            5,
+            7,
+            8,
+            9
+          ],
+          "cited_sources": [
+            "talhabilaldev Discount Policy (chunk 6)",
+            "talhabilaldev Discount Policy (chunk 5)",
+            "talhabilaldev Discount Policy (chunk 7)",
+            "talhabilaldev Discount Policy (chunk 8)",
+            "talhabilaldev Return Policy (chunk 9)"
+          ],
+          "declined": false,
+          "latency_s": 2.24
+        },
+        {
+          "id": 3,
+          "bucket": "correct",
+          "question": "How do I claim the student discount?",
+          "answer": "To claim the student discount, you need to send a copy of your valid student ID or school email to support@talhabilaldev.com. A personal code will be issued within 2 business days, which will be valid for 12 months (source: chunk 7).",
+          "retrieved": [
+            {
+              "chunk_id": 7,
+              "distance": 0.5011
+            },
+            {
+              "chunk_id": 5,
+              "distance": 0.5018
+            },
+            {
+              "chunk_id": 6,
+              "distance": 0.5026
+            },
+            {
+              "chunk_id": 8,
+              "distance": 0.5716
+            },
+            {
+              "chunk_id": 9,
+              "distance": 0.7258
+            }
+          ],
+          "retrieved_after_cutoff": [
+            7,
+            5,
+            6,
+            8,
+            9
+          ],
+          "cited_sources": [
+            "talhabilaldev Discount Policy (chunk 7)",
+            "talhabilaldev Discount Policy (chunk 5)",
+            "talhabilaldev Discount Policy (chunk 6)",
+            "talhabilaldev Discount Policy (chunk 8)",
+            "talhabilaldev Return Policy (chunk 9)"
+          ],
+          "declined": false,
+          "latency_s": 2.46
+        },
+        {
+          "id": 4,
+          "bucket": "correct",
+          "question": "What is the maximum combined discount for bundles and bulk orders during a seasonal sale?",
+          "answer": "The maximum combined discount for bundles and bulk orders during a seasonal sale is 25% off (source: chunk 6).",
+          "retrieved": [
+            {
+              "chunk_id": 6,
+              "distance": 0.3635
+            },
+            {
+              "chunk_id": 5,
+              "distance": 0.4682
+            },
+            {
+              "chunk_id": 8,
+              "distance": 0.5774
+            },
+            {
+              "chunk_id": 7,
+              "distance": 0.5985
+            },
+            {
+              "chunk_id": 9,
+              "distance": 0.7586
+            }
+          ],
+          "retrieved_after_cutoff": [
+            6,
+            5,
+            8,
+            7
+          ],
+          "cited_sources": [
+            "talhabilaldev Discount Policy (chunk 6)",
+            "talhabilaldev Discount Policy (chunk 5)",
+            "talhabilaldev Discount Policy (chunk 8)",
+            "talhabilaldev Discount Policy (chunk 7)"
+          ],
+          "declined": false,
+          "latency_s": 2.68
+        },
+        {
+          "id": 5,
+          "bucket": "correct",
+          "question": "How much is the bundle discount?",
+          "answer": "The bundle discount is 10% off when you buy a laptop, phone, or tablet together with two or more accessories (source: chunk 5).",
+          "retrieved": [
+            {
+              "chunk_id": 6,
+              "distance": 0.4223
+            },
+            {
+              "chunk_id": 5,
+              "distance": 0.472
+            },
+            {
+              "chunk_id": 8,
+              "distance": 0.5444
+            },
+            {
+              "chunk_id": 7,
+              "distance": 0.571
+            },
+            {
+              "chunk_id": 9,
+              "distance": 0.754
+            }
+          ],
+          "retrieved_after_cutoff": [
+            6,
+            5,
+            8,
+            7
+          ],
+          "cited_sources": [
+            "talhabilaldev Discount Policy (chunk 6)",
+            "talhabilaldev Discount Policy (chunk 5)",
+            "talhabilaldev Discount Policy (chunk 8)",
+            "talhabilaldev Discount Policy (chunk 7)"
+          ],
+          "declined": false,
+          "latency_s": 2.64
+        },
+        {
+          "id": 6,
+          "bucket": "correct",
+          "question": "What is the seasonal sale discount?",
+          "answer": "The seasonal sale discount can be up to 20% off selected items during events such as Black Friday, Eid, and New Year sales (source: chunk 5).",
+          "retrieved": [
+            {
+              "chunk_id": 6,
+              "distance": 0.476
+            },
+            {
+              "chunk_id": 5,
+              "distance": 0.5084
+            },
+            {
+              "chunk_id": 8,
+              "distance": 0.5585
+            },
+            {
+              "chunk_id": 7,
+              "distance": 0.6005
+            },
+            {
+              "chunk_id": 9,
+              "distance": 0.7132
+            }
+          ],
+          "retrieved_after_cutoff": [
+            6,
+            5,
+            8,
+            7,
+            9
+          ],
+          "cited_sources": [
+            "talhabilaldev Discount Policy (chunk 6)",
+            "talhabilaldev Discount Policy (chunk 5)",
+            "talhabilaldev Discount Policy (chunk 8)",
+            "talhabilaldev Discount Policy (chunk 7)",
+            "talhabilaldev Return Policy (chunk 9)"
+          ],
+          "declined": false,
+          "latency_s": 2.38
+        },
+        {
+          "id": 7,
+          "bucket": "correct",
+          "question": "What is the first order discount?",
+          "answer": "The first order discount is 8% off your first order with a welcome code, up to a maximum of $40 (source: chunk 5).",
+          "retrieved": [
+            {
+              "chunk_id": 6,
+              "distance": 0.5297
+            },
+            {
+              "chunk_id": 5,
+              "distance": 0.5675
+            },
+            {
+              "chunk_id": 8,
+              "distance": 0.598
+            },
+            {
+              "chunk_id": 7,
+              "distance": 0.6034
+            },
+            {
+              "chunk_id": 12,
+              "distance": 0.7781
+            }
+          ],
+          "retrieved_after_cutoff": [
+            6,
+            5,
+            8,
+            7
+          ],
+          "cited_sources": [
+            "talhabilaldev Discount Policy (chunk 6)",
+            "talhabilaldev Discount Policy (chunk 5)",
+            "talhabilaldev Discount Policy (chunk 8)",
+            "talhabilaldev Discount Policy (chunk 7)"
+          ],
+          "declined": false,
+          "latency_s": 2.35
+        },
+        {
+          "id": 8,
+          "bucket": "correct",
+          "question": "How much is the referral reward?",
+          "answer": "The referral reward is a $10 credit for both you and your friend when they place their first order of $100 or more (source: chunk 5).",
+          "retrieved": [
+            {
+              "chunk_id": 7,
+              "distance": 0.5465
+            },
+            {
+              "chunk_id": 6,
+              "distance": 0.6384
+            },
+            {
+              "chunk_id": 5,
+              "distance": 0.6496
+            },
+            {
+              "chunk_id": 8,
+              "distance": 0.7082
+            },
+            {
+              "chunk_id": 9,
+              "distance": 0.7664
+            }
+          ],
+          "retrieved_after_cutoff": [
+            7,
+            6,
+            5,
+            8
+          ],
+          "cited_sources": [
+            "talhabilaldev Discount Policy (chunk 7)",
+            "talhabilaldev Discount Policy (chunk 6)",
+            "talhabilaldev Discount Policy (chunk 5)",
+            "talhabilaldev Discount Policy (chunk 8)"
+          ],
+          "declined": false,
+          "latency_s": 2.44
+        },
+        {
+          "id": 9,
+          "bucket": "correct",
+          "question": "What bulk discount applies for 6 to 10 units?",
+          "answer": "The bulk discount for purchasing 6 to 10 units is 8% off (source: chunk 6).",
+          "retrieved": [
+            {
+              "chunk_id": 6,
+              "distance": 0.4336
+            },
+            {
+              "chunk_id": 5,
+              "distance": 0.5169
+            },
+            {
+              "chunk_id": 8,
+              "distance": 0.5832
+            },
+            {
+              "chunk_id": 7,
+              "distance": 0.647
+            },
+            {
+              "chunk_id": 9,
+              "distance": 0.7703
+            }
+          ],
+          "retrieved_after_cutoff": [
+            6,
+            5,
+            8,
+            7
+          ],
+          "cited_sources": [
+            "talhabilaldev Discount Policy (chunk 6)",
+            "talhabilaldev Discount Policy (chunk 5)",
+            "talhabilaldev Discount Policy (chunk 8)",
+            "talhabilaldev Discount Policy (chunk 7)"
+          ],
+          "declined": false,
+          "latency_s": 2.31
+        },
+        {
+          "id": 10,
+          "bucket": "correct",
+          "question": "How long do refunds take after a return?",
+          "answer": "Refunds are issued to your original payment method within 5 to 10 business days after the return is received and inspected (source: chunk 12).",
+          "retrieved": [
+            {
+              "chunk_id": 12,
+              "distance": 0.5006
+            },
+            {
+              "chunk_id": 10,
+              "distance": 0.5097
+            },
+            {
+              "chunk_id": 9,
+              "distance": 0.5336
+            },
+            {
+              "chunk_id": 11,
+              "distance": 0.5352
+            },
+            {
+              "chunk_id": 7,
+              "distance": 0.5744
+            }
+          ],
+          "retrieved_after_cutoff": [
+            12,
+            10,
+            9,
+            11,
+            7
+          ],
+          "cited_sources": [
+            "talhabilaldev Return Policy (chunk 12)",
+            "talhabilaldev Return Policy (chunk 10)",
+            "talhabilaldev Return Policy (chunk 9)",
+            "talhabilaldev Return Policy (chunk 11)",
+            "talhabilaldev Discount Policy (chunk 7)"
+          ],
+          "declined": false,
+          "latency_s": 2.37
+        },
+        {
+          "id": 11,
+          "bucket": "correct",
+          "question": "What is the restocking fee for opened items?",
+          "answer": "The restocking fee for opened items is up to 10% of the item's price (source: chunk 9).",
+          "retrieved": [
+            {
+              "chunk_id": 9,
+              "distance": 0.5939
+            },
+            {
+              "chunk_id": 10,
+              "distance": 0.6171
+            },
+            {
+              "chunk_id": 6,
+              "distance": 0.6312
+            },
+            {
+              "chunk_id": 8,
+              "distance": 0.6335
+            },
+            {
+              "chunk_id": 12,
+              "distance": 0.6409
+            }
+          ],
+          "retrieved_after_cutoff": [
+            9,
+            10,
+            6,
+            8,
+            12
+          ],
+          "cited_sources": [
+            "talhabilaldev Return Policy (chunk 9)",
+            "talhabilaldev Return Policy (chunk 10)",
+            "talhabilaldev Discount Policy (chunk 6)",
+            "talhabilaldev Discount Policy (chunk 8)",
+            "talhabilaldev Return Policy (chunk 12)"
+          ],
+          "declined": false,
+          "latency_s": 2.71
+        },
+        {
+          "id": 12,
+          "bucket": "correct",
+          "question": "What items are excluded from discounts?",
+          "answer": "Discounts do not apply to the following items:\n\n1. Gift cards and digital licenses or software\n2. Items marked \"Final Sale\" or \"Price Locked\"\n3. Pre-orders and newly launched products during their first 30 days\n4. Shipping fees and taxes (source: chunk 7).",
+          "retrieved": [
+            {
+              "chunk_id": 6,
+              "distance": 0.5006
+            },
+            {
+              "chunk_id": 7,
+              "distance": 0.5315
+            },
+            {
+              "chunk_id": 8,
+              "distance": 0.5352
+            },
+            {
+              "chunk_id": 5,
+              "distance": 0.5452
+            },
+            {
+              "chunk_id": 9,
+              "distance": 0.689
+            }
+          ],
+          "retrieved_after_cutoff": [
+            6,
+            7,
+            8,
+            5,
+            9
+          ],
+          "cited_sources": [
+            "talhabilaldev Discount Policy (chunk 6)",
+            "talhabilaldev Discount Policy (chunk 7)",
+            "talhabilaldev Discount Policy (chunk 8)",
+            "talhabilaldev Discount Policy (chunk 5)",
+            "talhabilaldev Return Policy (chunk 9)"
+          ],
+          "declined": false,
+          "latency_s": 2.46
+        },
+        {
+          "id": 13,
+          "bucket": "correct",
+          "question": "How do I start a return?",
+          "answer": "To start a return, follow these steps:\n\n1. Email support@talhabilaldev.com with your order number and reason for return.\n2. Wait for approval and your Return Authorization (RA) number.\n3. Pack the item securely in its original packaging and include the RA number.\n4. Ship it to the address provided, using a tracked service (as lost packages in transit are not the responsibility of the company) (source: chunk 11).",
+          "retrieved": [
+            {
+              "chunk_id": 11,
+              "distance": 0.5336
+            },
+            {
+              "chunk_id": 10,
+              "distance": 0.6109
+            },
+            {
+              "chunk_id": 9,
+              "distance": 0.6689
+            },
+            {
+              "chunk_id": 12,
+              "distance": 0.6765
+            },
+            {
+              "chunk_id": 8,
+              "distance": 0.7651
+            }
+          ],
+          "retrieved_after_cutoff": [
+            11,
+            10,
+            9,
+            12
+          ],
+          "cited_sources": [
+            "talhabilaldev Return Policy (chunk 11)",
+            "talhabilaldev Return Policy (chunk 10)",
+            "talhabilaldev Return Policy (chunk 9)",
+            "talhabilaldev Return Policy (chunk 12)"
+          ],
+          "declined": false,
+          "latency_s": 3.07
+        },
+        {
+          "id": 14,
+          "bucket": "correct",
+          "question": "What should I do before sending a device for a return?",
+          "answer": "Before sending a device for a return, you should:\n\n1. Back up your data.\n2. Sign out of all accounts, including any device locks (e.g., Find My Device).\n3. Perform a factory reset on the device.\n\nThese steps are necessary because the return cannot be processed on devices with active account locks (source: chunk 11).",
+          "retrieved": [
+            {
+              "chunk_id": 11,
+              "distance": 0.4206
+            },
+            {
+              "chunk_id": 10,
+              "distance": 0.4852
+            },
+            {
+              "chunk_id": 9,
+              "distance": 0.545
+            },
+            {
+              "chunk_id": 12,
+              "distance": 0.5913
+            },
+            {
+              "chunk_id": 8,
+              "distance": 0.6822
+            }
+          ],
+          "retrieved_after_cutoff": [
+            11,
+            10,
+            9,
+            12,
+            8
+          ],
+          "cited_sources": [
+            "talhabilaldev Return Policy (chunk 11)",
+            "talhabilaldev Return Policy (chunk 10)",
+            "talhabilaldev Return Policy (chunk 9)",
+            "talhabilaldev Return Policy (chunk 12)",
+            "talhabilaldev Discount Policy (chunk 8)"
+          ],
+          "declined": false,
+          "latency_s": 2.77
+        },
+        {
+          "id": 15,
+          "bucket": "correct",
+          "question": "How long do referral credits last?",
+          "answer": "Referral credits expire 90 days after they are issued (source: chunk 7).",
+          "retrieved": [
+            {
+              "chunk_id": 7,
+              "distance": 0.4173
+            },
+            {
+              "chunk_id": 8,
+              "distance": 0.6095
+            },
+            {
+              "chunk_id": 5,
+              "distance": 0.6388
+            },
+            {
+              "chunk_id": 6,
+              "distance": 0.6406
+            },
+            {
+              "chunk_id": 9,
+              "distance": 0.6824
+            }
+          ],
+          "retrieved_after_cutoff": [
+            7,
+            8,
+            5,
+            6,
+            9
+          ],
+          "cited_sources": [
+            "talhabilaldev Discount Policy (chunk 7)",
+            "talhabilaldev Discount Policy (chunk 8)",
+            "talhabilaldev Discount Policy (chunk 5)",
+            "talhabilaldev Discount Policy (chunk 6)",
+            "talhabilaldev Return Policy (chunk 9)"
+          ],
+          "declined": false,
+          "latency_s": 2.54
+        },
+        {
+          "id": 16,
+          "bucket": "partial",
+          "question": "What is the warranty period for laptops?",
+          "answer": "The warranty period for laptops is not specified in the retrieved documents. However, it is mentioned that all products are covered by the manufacturer's warranty, and assistance is provided for starting a warranty claim after the return window (source: chunk 10).",
+          "retrieved": [
+            {
+              "chunk_id": 11,
+              "distance": 0.5708
+            },
+            {
+              "chunk_id": 9,
+              "distance": 0.6259
+            },
+            {
+              "chunk_id": 10,
+              "distance": 0.6422
+            },
+            {
+              "chunk_id": 8,
+              "distance": 0.6858
+            },
+            {
+              "chunk_id": 5,
+              "distance": 0.7033
+            }
+          ],
+          "retrieved_after_cutoff": [
+            11,
+            9,
+            10,
+            8,
+            5
+          ],
+          "cited_sources": [
+            "talhabilaldev Return Policy (chunk 11)",
+            "talhabilaldev Return Policy (chunk 9)",
+            "talhabilaldev Return Policy (chunk 10)",
+            "talhabilaldev Discount Policy (chunk 8)",
+            "talhabilaldev Discount Policy (chunk 5)"
+          ],
+          "declined": false,
+          "latency_s": 3.09
+        },
+        {
+          "id": 17,
+          "bucket": "partial",
+          "question": "Can I return an item after 30 days if it is defective?",
+          "answer": "You can return a defective item if you contact support within 7 days of delivery. They will offer a free replacement or a full refund, including original shipping costs (source: chunk 10). The documents do not provide information about returning defective items after 30 days.",
+          "retrieved": [
+            {
+              "chunk_id": 10,
+              "distance": 0.482
+            },
+            {
+              "chunk_id": 9,
+              "distance": 0.4979
+            },
+            {
+              "chunk_id": 11,
+              "distance": 0.5481
+            },
+            {
+              "chunk_id": 12,
+              "distance": 0.5833
+            },
+            {
+              "chunk_id": 8,
+              "distance": 0.6067
+            }
+          ],
+          "retrieved_after_cutoff": [
+            10,
+            9,
+            11,
+            12,
+            8
+          ],
+          "cited_sources": [
+            "talhabilaldev Return Policy (chunk 10)",
+            "talhabilaldev Return Policy (chunk 9)",
+            "talhabilaldev Return Policy (chunk 11)",
+            "talhabilaldev Return Policy (chunk 12)",
+            "talhabilaldev Discount Policy (chunk 8)"
+          ],
+          "declined": false,
+          "latency_s": 2.66
+        },
+        {
+          "id": 18,
+          "bucket": "partial",
+          "question": "What is the maximum total discount I can get on one order?",
+          "answer": "The maximum total discount you can get on one order is 25% off when combining bundle and bulk discounts with seasonal sale prices (source: chunk 6). Additionally, referral credits can be applied on top of any discount, up to 50% of the order subtotal (source: chunk 7).",
+          "retrieved": [
+            {
+              "chunk_id": 6,
+              "distance": 0.4313
+            },
+            {
+              "chunk_id": 5,
+              "distance": 0.4908
+            },
+            {
+              "chunk_id": 7,
+              "distance": 0.5229
+            },
+            {
+              "chunk_id": 8,
+              "distance": 0.5236
+            },
+            {
+              "chunk_id": 9,
+              "distance": 0.7345
+            }
+          ],
+          "retrieved_after_cutoff": [
+            6,
+            5,
+            7,
+            8,
+            9
+          ],
+          "cited_sources": [
+            "talhabilaldev Discount Policy (chunk 6)",
+            "talhabilaldev Discount Policy (chunk 5)",
+            "talhabilaldev Discount Policy (chunk 7)",
+            "talhabilaldev Discount Policy (chunk 8)",
+            "talhabilaldev Return Policy (chunk 9)"
+          ],
+          "declined": false,
+          "latency_s": 2.66
+        },
+        {
+          "id": 19,
+          "bucket": "partial",
+          "question": "Is the restocking fee always exactly 10%?",
+          "answer": "The restocking fee for opened items in like-new condition is up to 10% (source: chunk 9). The documents do not specify if the fee is always exactly 10%.",
+          "retrieved": [
+            {
+              "chunk_id": 6,
+              "distance": 0.6458
+            },
+            {
+              "chunk_id": 8,
+              "distance": 0.6852
+            },
+            {
+              "chunk_id": 12,
+              "distance": 0.6861
+            },
+            {
+              "chunk_id": 9,
+              "distance": 0.6913
+            },
+            {
+              "chunk_id": 10,
+              "distance": 0.6986
+            }
+          ],
+          "retrieved_after_cutoff": [
+            6,
+            8,
+            12,
+            9,
+            10
+          ],
+          "cited_sources": [
+            "talhabilaldev Discount Policy (chunk 6)",
+            "talhabilaldev Discount Policy (chunk 8)",
+            "talhabilaldev Return Policy (chunk 12)",
+            "talhabilaldev Return Policy (chunk 9)",
+            "talhabilaldev Return Policy (chunk 10)"
+          ],
+          "declined": false,
+          "latency_s": 2.46
+        },
+        {
+          "id": 20,
+          "bucket": "partial",
+          "question": "Can I combine my student discount with a newsletter promo code?",
+          "answer": "You cannot combine a student discount with a newsletter promo code (source: chunk 6).",
+          "retrieved": [
+            {
+              "chunk_id": 6,
+              "distance": 0.4223
+            },
+            {
+              "chunk_id": 5,
+              "distance": 0.5214
+            },
+            {
+              "chunk_id": 7,
+              "distance": 0.5654
+            },
+            {
+              "chunk_id": 8,
+              "distance": 0.634
+            },
+            {
+              "chunk_id": 9,
+              "distance": 0.8168
+            }
+          ],
+          "retrieved_after_cutoff": [
+            6,
+            5,
+            7,
+            8
+          ],
+          "cited_sources": [
+            "talhabilaldev Discount Policy (chunk 6)",
+            "talhabilaldev Discount Policy (chunk 5)",
+            "talhabilaldev Discount Policy (chunk 7)",
+            "talhabilaldev Discount Policy (chunk 8)"
+          ],
+          "declined": false,
+          "latency_s": 2.46
+        },
+        {
+          "id": 21,
+          "bucket": "partial",
+          "question": "What happens to my bundle discount if I return one item from the bundle?",
+          "answer": "If you return one item from a bundle, the bundle discount may be recalculated on the remaining items (source: chunk 8).",
+          "retrieved": [
+            {
+              "chunk_id": 6,
+              "distance": 0.4425
+            },
+            {
+              "chunk_id": 5,
+              "distance": 0.4766
+            },
+            {
+              "chunk_id": 8,
+              "distance": 0.4836
+            },
+            {
+              "chunk_id": 7,
+              "distance": 0.5261
+            },
+            {
+              "chunk_id": 9,
+              "distance": 0.6278
+            }
+          ],
+          "retrieved_after_cutoff": [
+            6,
+            5,
+            8,
+            7,
+            9
+          ],
+          "cited_sources": [
+            "talhabilaldev Discount Policy (chunk 6)",
+            "talhabilaldev Discount Policy (chunk 5)",
+            "talhabilaldev Discount Policy (chunk 8)",
+            "talhabilaldev Discount Policy (chunk 7)",
+            "talhabilaldev Return Policy (chunk 9)"
+          ],
+          "declined": false,
+          "latency_s": 2.46
+        },
+        {
+          "id": 22,
+          "bucket": "partial",
+          "question": "Do refunds include the original shipping cost?",
+          "answer": "Refunds do not include the original shipping cost unless the return is due to an error on the seller's part or if the item is defective (source: chunk 12).",
+          "retrieved": [
+            {
+              "chunk_id": 12,
+              "distance": 0.4999
+            },
+            {
+              "chunk_id": 11,
+              "distance": 0.6314
+            },
+            {
+              "chunk_id": 9,
+              "distance": 0.6358
+            },
+            {
+              "chunk_id": 8,
+              "distance": 0.6467
+            },
+            {
+              "chunk_id": 10,
+              "distance": 0.6475
+            }
+          ],
+          "retrieved_after_cutoff": [
+            12,
+            11,
+            9,
+            8,
+            10
+          ],
+          "cited_sources": [
+            "talhabilaldev Return Policy (chunk 12)",
+            "talhabilaldev Return Policy (chunk 11)",
+            "talhabilaldev Return Policy (chunk 9)",
+            "talhabilaldev Discount Policy (chunk 8)",
+            "talhabilaldev Return Policy (chunk 10)"
+          ],
+          "declined": false,
+          "latency_s": 2.66
+        },
+        {
+          "id": 23,
+          "bucket": "partial",
+          "question": "How do I start a manufacturer's warranty claim?",
+          "answer": "To start a manufacturer's warranty claim, you should contact support by emailing support@talhabilaldev.com with your order number and the reason for the claim. They will assist you in the process (source: chunk 10).",
+          "retrieved": [
+            {
+              "chunk_id": 11,
+              "distance": 0.474
+            },
+            {
+              "chunk_id": 10,
+              "distance": 0.5986
+            },
+            {
+              "chunk_id": 9,
+              "distance": 0.6632
+            },
+            {
+              "chunk_id": 12,
+              "distance": 0.7049
+            },
+            {
+              "chunk_id": 8,
+              "distance": 0.7138
+            }
+          ],
+          "retrieved_after_cutoff": [
+            11,
+            10,
+            9,
+            12,
+            8
+          ],
+          "cited_sources": [
+            "talhabilaldev Return Policy (chunk 11)",
+            "talhabilaldev Return Policy (chunk 10)",
+            "talhabilaldev Return Policy (chunk 9)",
+            "talhabilaldev Return Policy (chunk 12)",
+            "talhabilaldev Discount Policy (chunk 8)"
+          ],
+          "declined": false,
+          "latency_s": 2.92
+        },
+        {
+          "id": 24,
+          "bucket": "partial",
+          "question": "Can I get a price adjustment if an item I bought drops in price?",
+          "answer": "You can receive a price adjustment if an item you purchased drops in price within 7 days of your order. To do this, you need to contact customer support with your order number to request a refund for the difference. However, this does not apply to flash sales, clearance items, or limited-time promotional events (source: chunk 8).",
+          "retrieved": [
+            {
+              "chunk_id": 8,
+              "distance": 0.6092
+            },
+            {
+              "chunk_id": 6,
+              "distance": 0.6364
+            },
+            {
+              "chunk_id": 5,
+              "distance": 0.6402
+            },
+            {
+              "chunk_id": 7,
+              "distance": 0.7234
+            },
+            {
+              "chunk_id": 9,
+              "distance": 0.7291
+            }
+          ],
+          "retrieved_after_cutoff": [
+            8,
+            6,
+            5,
+            7,
+            9
+          ],
+          "cited_sources": [
+            "talhabilaldev Discount Policy (chunk 8)",
+            "talhabilaldev Discount Policy (chunk 6)",
+            "talhabilaldev Discount Policy (chunk 5)",
+            "talhabilaldev Discount Policy (chunk 7)",
+            "talhabilaldev Return Policy (chunk 9)"
+          ],
+          "declined": false,
+          "latency_s": 2.71
+        },
+        {
+          "id": 25,
+          "bucket": "partial",
+          "question": "Can I get a student discount on a bulk order together with a seasonal sale?",
+          "answer": "You can combine bulk purchase discounts with seasonal sale prices, up to a combined maximum of 25% off. However, student discounts cannot be combined with other discounts such as first order or newsletter codes (source: chunk 6). \n\nThe documents do not specify if a student discount can be applied to a bulk order during a seasonal sale, so that part is not covered.",
+          "retrieved": [
+            {
+              "chunk_id": 6,
+              "distance": 0.3916
+            },
+            {
+              "chunk_id": 5,
+              "distance": 0.4485
+            },
+            {
+              "chunk_id": 8,
+              "distance": 0.5682
+            },
+            {
+              "chunk_id": 7,
+              "distance": 0.5735
+            },
+            {
+              "chunk_id": 9,
+              "distance": 0.7166
+            }
+          ],
+          "retrieved_after_cutoff": [
+            6,
+            5,
+            8,
+            7,
+            9
+          ],
+          "cited_sources": [
+            "talhabilaldev Discount Policy (chunk 6)",
+            "talhabilaldev Discount Policy (chunk 5)",
+            "talhabilaldev Discount Policy (chunk 8)",
+            "talhabilaldev Discount Policy (chunk 7)",
+            "talhabilaldev Return Policy (chunk 9)"
+          ],
+          "declined": false,
+          "latency_s": 2.76
+        },
+        {
+          "id": 26,
+          "bucket": "partial",
+          "question": "Is the return window different for accessories than for electronics?",
+          "answer": "The return window for most items, including electronics and accessories, is 14 days from the delivery date. Accessories must be unused and in their original packaging to be eligible for return (source: chunk 9). The documents do not specify if the return window differs between accessories and electronics.",
+          "retrieved": [
+            {
+              "chunk_id": 9,
+              "distance": 0.6046
+            },
+            {
+              "chunk_id": 11,
+              "distance": 0.6113
+            },
+            {
+              "chunk_id": 10,
+              "distance": 0.6672
+            },
+            {
+              "chunk_id": 6,
+              "distance": 0.7182
+            },
+            {
+              "chunk_id": 5,
+              "distance": 0.7411
+            }
+          ],
+          "retrieved_after_cutoff": [
+            9,
+            11,
+            10,
+            6,
+            5
+          ],
+          "cited_sources": [
+            "talhabilaldev Return Policy (chunk 9)",
+            "talhabilaldev Return Policy (chunk 11)",
+            "talhabilaldev Return Policy (chunk 10)",
+            "talhabilaldev Discount Policy (chunk 6)",
+            "talhabilaldev Discount Policy (chunk 5)"
+          ],
+          "declined": false,
+          "latency_s": 3.07
+        },
+        {
+          "id": 27,
+          "bucket": "partial",
+          "question": "What exactly is required to prove an item is defective or damaged?",
+          "answer": "To prove that an item is defective or damaged, you need to contact the support team within 7 days of delivery and provide your order number along with photos or a short video of the issue (source: chunk 10).",
+          "retrieved": [
+            {
+              "chunk_id": 10,
+              "distance": 0.5862
+            },
+            {
+              "chunk_id": 11,
+              "distance": 0.6166
+            },
+            {
+              "chunk_id": 9,
+              "distance": 0.6526
+            },
+            {
+              "chunk_id": 12,
+              "distance": 0.6835
+            },
+            {
+              "chunk_id": 8,
+              "distance": 0.713
+            }
+          ],
+          "retrieved_after_cutoff": [
+            10,
+            11,
+            9,
+            12,
+            8
+          ],
+          "cited_sources": [
+            "talhabilaldev Return Policy (chunk 10)",
+            "talhabilaldev Return Policy (chunk 11)",
+            "talhabilaldev Return Policy (chunk 9)",
+            "talhabilaldev Return Policy (chunk 12)",
+            "talhabilaldev Discount Policy (chunk 8)"
+          ],
+          "declined": false,
+          "latency_s": 2.87
+        },
+        {
+          "id": 28,
+          "bucket": "irrelevant",
+          "question": "What is your phone number?",
+          "answer": "I could not find that information in the documents.",
+          "retrieved": [
+            {
+              "chunk_id": 11,
+              "distance": 0.7566
+            },
+            {
+              "chunk_id": 8,
+              "distance": 0.7648
+            },
+            {
+              "chunk_id": 12,
+              "distance": 0.7713
+            },
+            {
+              "chunk_id": 9,
+              "distance": 0.7762
+            },
+            {
+              "chunk_id": 10,
+              "distance": 0.7909
+            }
+          ],
+          "retrieved_after_cutoff": [],
+          "cited_sources": [],
+          "declined": true,
+          "latency_s": 2.25
+        },
+        {
+          "id": 29,
+          "bucket": "irrelevant",
+          "question": "Who is the CEO of talhabilaldev?",
+          "answer": "I could not find information regarding the CEO of talhabilaldev in the documents.",
+          "retrieved": [
+            {
+              "chunk_id": 5,
+              "distance": 0.5157
+            },
+            {
+              "chunk_id": 9,
+              "distance": 0.5544
+            },
+            {
+              "chunk_id": 8,
+              "distance": 0.5651
+            },
+            {
+              "chunk_id": 12,
+              "distance": 0.5757
+            },
+            {
+              "chunk_id": 10,
+              "distance": 0.667
+            }
+          ],
+          "retrieved_after_cutoff": [
+            5,
+            9,
+            8,
+            12,
+            10
+          ],
+          "cited_sources": [
+            "talhabilaldev Discount Policy (chunk 5)",
+            "talhabilaldev Return Policy (chunk 9)",
+            "talhabilaldev Discount Policy (chunk 8)",
+            "talhabilaldev Return Policy (chunk 12)",
+            "talhabilaldev Return Policy (chunk 10)"
+          ],
+          "declined": false,
+          "latency_s": 3.0
+        },
+        {
+          "id": 30,
+          "bucket": "irrelevant",
+          "question": "Do you price match other retailers?",
+          "answer": "The documents do not mention whether there is a price matching policy with other retailers. I could not find that information in the documents.",
+          "retrieved": [
+            {
+              "chunk_id": 6,
+              "distance": 0.5928
+            },
+            {
+              "chunk_id": 5,
+              "distance": 0.6374
+            },
+            {
+              "chunk_id": 8,
+              "distance": 0.6617
+            },
+            {
+              "chunk_id": 7,
+              "distance": 0.7058
+            },
+            {
+              "chunk_id": 9,
+              "distance": 0.7203
+            }
+          ],
+          "retrieved_after_cutoff": [
+            6,
+            5,
+            8,
+            7,
+            9
+          ],
+          "cited_sources": [
+            "talhabilaldev Discount Policy (chunk 6)",
+            "talhabilaldev Discount Policy (chunk 5)",
+            "talhabilaldev Discount Policy (chunk 8)",
+            "talhabilaldev Discount Policy (chunk 7)",
+            "talhabilaldev Return Policy (chunk 9)"
+          ],
+          "declined": false,
+          "latency_s": 2.44
+        },
+        {
+          "id": 31,
+          "bucket": "irrelevant",
+          "question": "Do you ship internationally or to the EU?",
+          "answer": "The retrieved documents do not provide information regarding international shipping or shipping to the EU.",
+          "retrieved": [
+            {
+              "chunk_id": 6,
+              "distance": 0.7376
+            },
+            {
+              "chunk_id": 12,
+              "distance": 0.7517
+            },
+            {
+              "chunk_id": 10,
+              "distance": 0.754
+            },
+            {
+              "chunk_id": 9,
+              "distance": 0.7556
+            },
+            {
+              "chunk_id": 11,
+              "distance": 0.7864
+            },
+            {
+              "chunk_id": 12,
+              "distance": 0.542
+            },
+            {
+              "chunk_id": 8,
+              "distance": 0.5666
+            },
+            {
+              "chunk_id": 9,
+              "distance": 0.5822
+            },
+            {
+              "chunk_id": 10,
+              "distance": 0.5845
+            },
+            {
+              "chunk_id": 5,
+              "distance": 0.629
+            }
+          ],
+          "retrieved_after_cutoff": [
+            6,
+            12,
+            8,
+            9,
+            10,
+            5
+          ],
+          "cited_sources": [
+            "talhabilaldev Discount Policy (chunk 6)",
+            "talhabilaldev Return Policy (chunk 12)",
+            "talhabilaldev Discount Policy (chunk 8)",
+            "talhabilaldev Return Policy (chunk 9)",
+            "talhabilaldev Return Policy (chunk 10)",
+            "talhabilaldev Discount Policy (chunk 5)"
+          ],
+          "declined": false,
+          "latency_s": 4.39
+        },
+        {
+          "id": 32,
+          "bucket": "irrelevant",
+          "question": "Which payment methods do you accept?",
+          "answer": "I could not find information regarding the accepted payment methods in the documents.",
+          "retrieved": [
+            {
+              "chunk_id": 8,
+              "distance": 0.6573
+            },
+            {
+              "chunk_id": 12,
+              "distance": 0.6599
+            },
+            {
+              "chunk_id": 6,
+              "distance": 0.6637
+            },
+            {
+              "chunk_id": 5,
+              "distance": 0.665
+            },
+            {
+              "chunk_id": 7,
+              "distance": 0.6728
+            }
+          ],
+          "retrieved_after_cutoff": [
+            8,
+            12,
+            6,
+            5,
+            7
+          ],
+          "cited_sources": [
+            "talhabilaldev Discount Policy (chunk 8)",
+            "talhabilaldev Return Policy (chunk 12)",
+            "talhabilaldev Discount Policy (chunk 6)",
+            "talhabilaldev Discount Policy (chunk 5)",
+            "talhabilaldev Discount Policy (chunk 7)"
+          ],
+          "declined": false,
+          "latency_s": 2.62
+        },
+        {
+          "id": 33,
+          "bucket": "irrelevant",
+          "question": "Can I cancel my order after placing it?",
+          "answer": "The documents do not provide specific information about canceling an order after it has been placed. They mainly discuss return policies and conditions for refunds. If you need further assistance, please let me know!",
+          "retrieved": [
+            {
+              "chunk_id": 8,
+              "distance": 0.6599
+            },
+            {
+              "chunk_id": 12,
+              "distance": 0.6838
+            },
+            {
+              "chunk_id": 7,
+              "distance": 0.7001
+            },
+            {
+              "chunk_id": 10,
+              "distance": 0.7069
+            },
+            {
+              "chunk_id": 9,
+              "distance": 0.7385
+            }
+          ],
+          "retrieved_after_cutoff": [
+            8,
+            12,
+            7,
+            10,
+            9
+          ],
+          "cited_sources": [
+            "talhabilaldev Discount Policy (chunk 8)",
+            "talhabilaldev Return Policy (chunk 12)",
+            "talhabilaldev Discount Policy (chunk 7)",
+            "talhabilaldev Return Policy (chunk 10)",
+            "talhabilaldev Return Policy (chunk 9)"
+          ],
+          "declined": false,
+          "latency_s": 2.51
+        },
+        {
+          "id": 34,
+          "bucket": "irrelevant",
+          "question": "How do I track my order?",
+          "answer": "I could not find information on how to track your order in the documents.",
+          "retrieved": [
+            {
+              "chunk_id": 11,
+              "distance": 0.6665
+            },
+            {
+              "chunk_id": 12,
+              "distance": 0.6755
+            },
+            {
+              "chunk_id": 10,
+              "distance": 0.6941
+            },
+            {
+              "chunk_id": 8,
+              "distance": 0.7107
+            },
+            {
+              "chunk_id": 9,
+              "distance": 0.7239
+            }
+          ],
+          "retrieved_after_cutoff": [
+            11,
+            12,
+            10,
+            8,
+            9
+          ],
+          "cited_sources": [
+            "talhabilaldev Return Policy (chunk 11)",
+            "talhabilaldev Return Policy (chunk 12)",
+            "talhabilaldev Return Policy (chunk 10)",
+            "talhabilaldev Discount Policy (chunk 8)",
+            "talhabilaldev Return Policy (chunk 9)"
+          ],
+          "declined": false,
+          "latency_s": 3.89
+        },
+        {
+          "id": 35,
+          "bucket": "irrelevant",
+          "question": "Do you have a loyalty or rewards membership program?",
+          "answer": "I could not find information regarding a loyalty or rewards membership program in the documents.",
+          "retrieved": [
+            {
+              "chunk_id": 5,
+              "distance": 0.64
+            },
+            {
+              "chunk_id": 7,
+              "distance": 0.6547
+            },
+            {
+              "chunk_id": 6,
+              "distance": 0.6709
+            },
+            {
+              "chunk_id": 8,
+              "distance": 0.6963
+            },
+            {
+              "chunk_id": 9,
+              "distance": 0.7342
+            }
+          ],
+          "retrieved_after_cutoff": [
+            5,
+            7,
+            6,
+            8,
+            9
+          ],
+          "cited_sources": [
+            "talhabilaldev Discount Policy (chunk 5)",
+            "talhabilaldev Discount Policy (chunk 7)",
+            "talhabilaldev Discount Policy (chunk 6)",
+            "talhabilaldev Discount Policy (chunk 8)",
+            "talhabilaldev Return Policy (chunk 9)"
+          ],
+          "declined": false,
+          "latency_s": 4.49
+        },
+        {
+          "id": 36,
+          "bucket": "irrelevant",
+          "question": "Do you offer gift wrapping?",
+          "answer": "I could not find information regarding gift wrapping in the documents.",
+          "retrieved": [
+            {
+              "chunk_id": 6,
+              "distance": 0.7182
+            },
+            {
+              "chunk_id": 10,
+              "distance": 0.7242
+            },
+            {
+              "chunk_id": 9,
+              "distance": 0.7656
+            },
+            {
+              "chunk_id": 8,
+              "distance": 0.7816
+            },
+            {
+              "chunk_id": 5,
+              "distance": 0.7902
+            }
+          ],
+          "retrieved_after_cutoff": [
+            6,
+            10
+          ],
+          "cited_sources": [
+            "talhabilaldev Discount Policy (chunk 6)",
+            "talhabilaldev Return Policy (chunk 10)"
+          ],
+          "declined": false,
+          "latency_s": 2.47
+        },
+        {
+          "id": 37,
+          "bucket": "irrelevant",
+          "question": "Do you offer military or senior discounts?",
+          "answer": "The documents do not mention any military or senior discounts. I could not find that information in the documents.",
+          "retrieved": [
+            {
+              "chunk_id": 6,
+              "distance": 0.5794
+            },
+            {
+              "chunk_id": 5,
+              "distance": 0.5882
+            },
+            {
+              "chunk_id": 7,
+              "distance": 0.6322
+            },
+            {
+              "chunk_id": 8,
+              "distance": 0.6588
+            },
+            {
+              "chunk_id": 9,
+              "distance": 0.7826
+            }
+          ],
+          "retrieved_after_cutoff": [
+            6,
+            5,
+            7,
+            8
+          ],
+          "cited_sources": [
+            "talhabilaldev Discount Policy (chunk 6)",
+            "talhabilaldev Discount Policy (chunk 5)",
+            "talhabilaldev Discount Policy (chunk 7)",
+            "talhabilaldev Discount Policy (chunk 8)"
+          ],
+          "declined": false,
+          "latency_s": 2.25
+        },
+        {
+          "id": 38,
+          "bucket": "irrelevant",
+          "question": "Where are your physical store locations?",
+          "answer": "I could not find that information in the documents.",
+          "retrieved": [
+            {
+              "chunk_id": 9,
+              "distance": 0.7536
+            },
+            {
+              "chunk_id": 5,
+              "distance": 0.7844
+            },
+            {
+              "chunk_id": 10,
+              "distance": 0.7856
+            },
+            {
+              "chunk_id": 6,
+              "distance": 0.7868
+            },
+            {
+              "chunk_id": 8,
+              "distance": 0.7897
+            }
+          ],
+          "retrieved_after_cutoff": [],
+          "cited_sources": [],
+          "declined": true,
+          "latency_s": 2.25
+        },
+        {
+          "id": 39,
+          "bucket": "irrelevant",
+          "question": "Are you hiring, and how do I apply for a job?",
+          "answer": "I could not find that information in the documents.",
+          "retrieved": [
+            {
+              "chunk_id": 11,
+              "distance": 0.8259
+            },
+            {
+              "chunk_id": 5,
+              "distance": 0.8279
+            },
+            {
+              "chunk_id": 7,
+              "distance": 0.8355
+            },
+            {
+              "chunk_id": 10,
+              "distance": 0.8448
+            },
+            {
+              "chunk_id": 12,
+              "distance": 0.8485
+            }
+          ],
+          "retrieved_after_cutoff": [],
+          "cited_sources": [],
+          "declined": true,
+          "latency_s": 2.46
+        },
+        {
+          "id": 40,
+          "bucket": "irrelevant",
+          "question": "What is the weather like at your headquarters today?",
+          "answer": "I could not find that information in the documents.",
+          "retrieved": [
+            {
+              "chunk_id": 11,
+              "distance": 0.8348
+            },
+            {
+              "chunk_id": 6,
+              "distance": 0.8354
+            },
+            {
+              "chunk_id": 8,
+              "distance": 0.84
+            },
+            {
+              "chunk_id": 9,
+              "distance": 0.8492
+            },
+            {
+              "chunk_id": 5,
+              "distance": 0.8675
+            }
+          ],
+          "retrieved_after_cutoff": [],
+          "cited_sources": [],
+          "declined": true,
+          "latency_s": 2.25
+        }
+      ]
+    },
+    {
+      "cutoff": 0.85,
+      "summary": {
+        "correct": {
+          "n": 15,
+          "declined": 0,
+          "chunks": 75
+        },
+        "partial": {
+          "n": 12,
+          "declined": 0,
+          "chunks": 60
+        },
+        "irrelevant": {
+          "n": 13,
+          "declined": 3,
+          "chunks": 64
+        }
+      },
+      "records": [
+        {
+          "id": 1,
+          "bucket": "correct",
+          "question": "What is the return window for most items?",
+          "answer": "You may return most items within 14 days of the delivery date. To be eligible for a return, items must be unused or, for opened electronics, in the same condition you received them, with all original packaging, accessories, manuals, and cables (source: chunk 9).",
+          "retrieved": [
+            {
+              "chunk_id": 9,
+              "distance": 0.6602
+            },
+            {
+              "chunk_id": 11,
+              "distance": 0.6892
+            },
+            {
+              "chunk_id": 10,
+              "distance": 0.7151
+            },
+            {
+              "chunk_id": 8,
+              "distance": 0.7338
+            },
+            {
+              "chunk_id": 6,
+              "distance": 0.7514
+            }
+          ],
+          "retrieved_after_cutoff": [
+            9,
+            11,
+            10,
+            8,
+            6
+          ],
+          "cited_sources": [
+            "talhabilaldev Return Policy (chunk 9)",
+            "talhabilaldev Return Policy (chunk 11)",
+            "talhabilaldev Return Policy (chunk 10)",
+            "talhabilaldev Discount Policy (chunk 8)",
+            "talhabilaldev Discount Policy (chunk 6)"
+          ],
+          "declined": false,
+          "latency_s": 2.87
+        },
+        {
+          "id": 2,
+          "bucket": "correct",
+          "question": "How much is the student discount?",
+          "answer": "The student discount is 5% off eligible products with valid student ID verification (source: chunk 5).",
+          "retrieved": [
+            {
+              "chunk_id": 6,
+              "distance": 0.4476
+            },
+            {
+              "chunk_id": 5,
+              "distance": 0.4591
+            },
+            {
+              "chunk_id": 7,
+              "distance": 0.5052
+            },
+            {
+              "chunk_id": 8,
+              "distance": 0.5393
+            },
+            {
+              "chunk_id": 9,
+              "distance": 0.7141
+            }
+          ],
+          "retrieved_after_cutoff": [
+            6,
+            5,
+            7,
+            8,
+            9
+          ],
+          "cited_sources": [
+            "talhabilaldev Discount Policy (chunk 6)",
+            "talhabilaldev Discount Policy (chunk 5)",
+            "talhabilaldev Discount Policy (chunk 7)",
+            "talhabilaldev Discount Policy (chunk 8)",
+            "talhabilaldev Return Policy (chunk 9)"
+          ],
+          "declined": false,
+          "latency_s": 2.46
+        },
+        {
+          "id": 3,
+          "bucket": "correct",
+          "question": "How do I claim the student discount?",
+          "answer": "To claim the student discount, you need to send a copy of your valid student ID or school email to support@talhabilaldev.com. A personal code will be issued within 2 business days, which will be valid for 12 months (source: chunk 7).",
+          "retrieved": [
+            {
+              "chunk_id": 7,
+              "distance": 0.5011
+            },
+            {
+              "chunk_id": 5,
+              "distance": 0.5018
+            },
+            {
+              "chunk_id": 6,
+              "distance": 0.5026
+            },
+            {
+              "chunk_id": 8,
+              "distance": 0.5716
+            },
+            {
+              "chunk_id": 9,
+              "distance": 0.7258
+            }
+          ],
+          "retrieved_after_cutoff": [
+            7,
+            5,
+            6,
+            8,
+            9
+          ],
+          "cited_sources": [
+            "talhabilaldev Discount Policy (chunk 7)",
+            "talhabilaldev Discount Policy (chunk 5)",
+            "talhabilaldev Discount Policy (chunk 6)",
+            "talhabilaldev Discount Policy (chunk 8)",
+            "talhabilaldev Return Policy (chunk 9)"
+          ],
+          "declined": false,
+          "latency_s": 3.07
+        },
+        {
+          "id": 4,
+          "bucket": "correct",
+          "question": "What is the maximum combined discount for bundles and bulk orders during a seasonal sale?",
+          "answer": "The maximum combined discount for bundles and bulk orders during a seasonal sale is 25% off (source: chunk 6).",
+          "retrieved": [
+            {
+              "chunk_id": 6,
+              "distance": 0.3635
+            },
+            {
+              "chunk_id": 5,
+              "distance": 0.4682
+            },
+            {
+              "chunk_id": 8,
+              "distance": 0.5774
+            },
+            {
+              "chunk_id": 7,
+              "distance": 0.5985
+            },
+            {
+              "chunk_id": 9,
+              "distance": 0.7586
+            }
+          ],
+          "retrieved_after_cutoff": [
+            6,
+            5,
+            8,
+            7,
+            9
+          ],
+          "cited_sources": [
+            "talhabilaldev Discount Policy (chunk 6)",
+            "talhabilaldev Discount Policy (chunk 5)",
+            "talhabilaldev Discount Policy (chunk 8)",
+            "talhabilaldev Discount Policy (chunk 7)",
+            "talhabilaldev Return Policy (chunk 9)"
+          ],
+          "declined": false,
+          "latency_s": 2.46
+        },
+        {
+          "id": 5,
+          "bucket": "correct",
+          "question": "How much is the bundle discount?",
+          "answer": "The bundle discount is 10% off when you buy a laptop, phone, or tablet together with two or more accessories (source: chunk 5).",
+          "retrieved": [
+            {
+              "chunk_id": 6,
+              "distance": 0.4223
+            },
+            {
+              "chunk_id": 5,
+              "distance": 0.472
+            },
+            {
+              "chunk_id": 8,
+              "distance": 0.5444
+            },
+            {
+              "chunk_id": 7,
+              "distance": 0.571
+            },
+            {
+              "chunk_id": 9,
+              "distance": 0.754
+            }
+          ],
+          "retrieved_after_cutoff": [
+            6,
+            5,
+            8,
+            7,
+            9
+          ],
+          "cited_sources": [
+            "talhabilaldev Discount Policy (chunk 6)",
+            "talhabilaldev Discount Policy (chunk 5)",
+            "talhabilaldev Discount Policy (chunk 8)",
+            "talhabilaldev Discount Policy (chunk 7)",
+            "talhabilaldev Return Policy (chunk 9)"
+          ],
+          "declined": false,
+          "latency_s": 2.44
+        },
+        {
+          "id": 6,
+          "bucket": "correct",
+          "question": "What is the seasonal sale discount?",
+          "answer": "The seasonal sale discount can be up to 20% off selected items during events such as Black Friday, Eid, and New Year sales (source: chunk 5).",
+          "retrieved": [
+            {
+              "chunk_id": 6,
+              "distance": 0.476
+            },
+            {
+              "chunk_id": 5,
+              "distance": 0.5084
+            },
+            {
+              "chunk_id": 8,
+              "distance": 0.5585
+            },
+            {
+              "chunk_id": 7,
+              "distance": 0.6005
+            },
+            {
+              "chunk_id": 9,
+              "distance": 0.7132
+            }
+          ],
+          "retrieved_after_cutoff": [
+            6,
+            5,
+            8,
+            7,
+            9
+          ],
+          "cited_sources": [
+            "talhabilaldev Discount Policy (chunk 6)",
+            "talhabilaldev Discount Policy (chunk 5)",
+            "talhabilaldev Discount Policy (chunk 8)",
+            "talhabilaldev Discount Policy (chunk 7)",
+            "talhabilaldev Return Policy (chunk 9)"
+          ],
+          "declined": false,
+          "latency_s": 2.75
+        },
+        {
+          "id": 7,
+          "bucket": "correct",
+          "question": "What is the first order discount?",
+          "answer": "The first order discount is 8% off your first order with a welcome code, up to a maximum of $40 (source: chunk 5).",
+          "retrieved": [
+            {
+              "chunk_id": 6,
+              "distance": 0.5297
+            },
+            {
+              "chunk_id": 5,
+              "distance": 0.5675
+            },
+            {
+              "chunk_id": 8,
+              "distance": 0.598
+            },
+            {
+              "chunk_id": 7,
+              "distance": 0.6034
+            },
+            {
+              "chunk_id": 12,
+              "distance": 0.7781
+            }
+          ],
+          "retrieved_after_cutoff": [
+            6,
+            5,
+            8,
+            7,
+            12
+          ],
+          "cited_sources": [
+            "talhabilaldev Discount Policy (chunk 6)",
+            "talhabilaldev Discount Policy (chunk 5)",
+            "talhabilaldev Discount Policy (chunk 8)",
+            "talhabilaldev Discount Policy (chunk 7)",
+            "talhabilaldev Return Policy (chunk 12)"
+          ],
+          "declined": false,
+          "latency_s": 2.98
+        },
+        {
+          "id": 8,
+          "bucket": "correct",
+          "question": "How much is the referral reward?",
+          "answer": "The referral reward is a $10 credit for both you and your friend when they place their first order of $100 or more (source: chunk 5).",
+          "retrieved": [
+            {
+              "chunk_id": 7,
+              "distance": 0.5465
+            },
+            {
+              "chunk_id": 6,
+              "distance": 0.6384
+            },
+            {
+              "chunk_id": 5,
+              "distance": 0.6496
+            },
+            {
+              "chunk_id": 8,
+              "distance": 0.7082
+            },
+            {
+              "chunk_id": 9,
+              "distance": 0.7664
+            }
+          ],
+          "retrieved_after_cutoff": [
+            7,
+            6,
+            5,
+            8,
+            9
+          ],
+          "cited_sources": [
+            "talhabilaldev Discount Policy (chunk 7)",
+            "talhabilaldev Discount Policy (chunk 6)",
+            "talhabilaldev Discount Policy (chunk 5)",
+            "talhabilaldev Discount Policy (chunk 8)",
+            "talhabilaldev Return Policy (chunk 9)"
+          ],
+          "declined": false,
+          "latency_s": 2.42
+        },
+        {
+          "id": 9,
+          "bucket": "correct",
+          "question": "What bulk discount applies for 6 to 10 units?",
+          "answer": "The bulk discount for purchasing 6 to 10 units is 8% off (source: chunk 6).",
+          "retrieved": [
+            {
+              "chunk_id": 6,
+              "distance": 0.4336
+            },
+            {
+              "chunk_id": 5,
+              "distance": 0.5169
+            },
+            {
+              "chunk_id": 8,
+              "distance": 0.5832
+            },
+            {
+              "chunk_id": 7,
+              "distance": 0.647
+            },
+            {
+              "chunk_id": 9,
+              "distance": 0.7703
+            }
+          ],
+          "retrieved_after_cutoff": [
+            6,
+            5,
+            8,
+            7,
+            9
+          ],
+          "cited_sources": [
+            "talhabilaldev Discount Policy (chunk 6)",
+            "talhabilaldev Discount Policy (chunk 5)",
+            "talhabilaldev Discount Policy (chunk 8)",
+            "talhabilaldev Discount Policy (chunk 7)",
+            "talhabilaldev Return Policy (chunk 9)"
+          ],
+          "declined": false,
+          "latency_s": 2.72
+        },
+        {
+          "id": 10,
+          "bucket": "correct",
+          "question": "How long do refunds take after a return?",
+          "answer": "Refunds are issued to your original payment method within 5 to 10 business days after the return is received and inspected (source: chunk 12).",
+          "retrieved": [
+            {
+              "chunk_id": 12,
+              "distance": 0.5006
+            },
+            {
+              "chunk_id": 10,
+              "distance": 0.5097
+            },
+            {
+              "chunk_id": 9,
+              "distance": 0.5336
+            },
+            {
+              "chunk_id": 11,
+              "distance": 0.5352
+            },
+            {
+              "chunk_id": 7,
+              "distance": 0.5744
+            }
+          ],
+          "retrieved_after_cutoff": [
+            12,
+            10,
+            9,
+            11,
+            7
+          ],
+          "cited_sources": [
+            "talhabilaldev Return Policy (chunk 12)",
+            "talhabilaldev Return Policy (chunk 10)",
+            "talhabilaldev Return Policy (chunk 9)",
+            "talhabilaldev Return Policy (chunk 11)",
+            "talhabilaldev Discount Policy (chunk 7)"
+          ],
+          "declined": false,
+          "latency_s": 2.28
+        },
+        {
+          "id": 11,
+          "bucket": "correct",
+          "question": "What is the restocking fee for opened items?",
+          "answer": "The restocking fee for opened items is up to 10% of the purchase price (source: chunk 9).",
+          "retrieved": [
+            {
+              "chunk_id": 9,
+              "distance": 0.5939
+            },
+            {
+              "chunk_id": 10,
+              "distance": 0.6171
+            },
+            {
+              "chunk_id": 6,
+              "distance": 0.6312
+            },
+            {
+              "chunk_id": 8,
+              "distance": 0.6335
+            },
+            {
+              "chunk_id": 12,
+              "distance": 0.6409
+            }
+          ],
+          "retrieved_after_cutoff": [
+            9,
+            10,
+            6,
+            8,
+            12
+          ],
+          "cited_sources": [
+            "talhabilaldev Return Policy (chunk 9)",
+            "talhabilaldev Return Policy (chunk 10)",
+            "talhabilaldev Discount Policy (chunk 6)",
+            "talhabilaldev Discount Policy (chunk 8)",
+            "talhabilaldev Return Policy (chunk 12)"
+          ],
+          "declined": false,
+          "latency_s": 2.41
+        },
+        {
+          "id": 12,
+          "bucket": "correct",
+          "question": "What items are excluded from discounts?",
+          "answer": "Discounts do not apply to the following items:\n\n1. Gift cards and digital licenses or software\n2. Items marked \"Final Sale\" or \"Price Locked\"\n3. Pre-orders and newly launched products during their first 30 days\n4. Shipping fees and taxes (source: chunk 7).",
+          "retrieved": [
+            {
+              "chunk_id": 6,
+              "distance": 0.5006
+            },
+            {
+              "chunk_id": 7,
+              "distance": 0.5315
+            },
+            {
+              "chunk_id": 8,
+              "distance": 0.5352
+            },
+            {
+              "chunk_id": 5,
+              "distance": 0.5452
+            },
+            {
+              "chunk_id": 9,
+              "distance": 0.689
+            }
+          ],
+          "retrieved_after_cutoff": [
+            6,
+            7,
+            8,
+            5,
+            9
+          ],
+          "cited_sources": [
+            "talhabilaldev Discount Policy (chunk 6)",
+            "talhabilaldev Discount Policy (chunk 7)",
+            "talhabilaldev Discount Policy (chunk 8)",
+            "talhabilaldev Discount Policy (chunk 5)",
+            "talhabilaldev Return Policy (chunk 9)"
+          ],
+          "declined": false,
+          "latency_s": 2.59
+        },
+        {
+          "id": 13,
+          "bucket": "correct",
+          "question": "How do I start a return?",
+          "answer": "To start a return, you should:\n\n1. Email support@talhabilaldev.com with your order number and reason for return.\n2. Wait for approval and your Return Authorization (RA) number.\n3. Pack the item securely in its original packaging and include the RA number.\n4. Ship it to the address provided, using a tracked service (source: chunk 11). \n\nThe rest of the return process, including conditions for items and refunds, is not covered in your question.",
+          "retrieved": [
+            {
+              "chunk_id": 11,
+              "distance": 0.5335
+            },
+            {
+              "chunk_id": 10,
+              "distance": 0.6108
+            },
+            {
+              "chunk_id": 9,
+              "distance": 0.6688
+            },
+            {
+              "chunk_id": 12,
+              "distance": 0.6765
+            },
+            {
+              "chunk_id": 8,
+              "distance": 0.7651
+            }
+          ],
+          "retrieved_after_cutoff": [
+            11,
+            10,
+            9,
+            12,
+            8
+          ],
+          "cited_sources": [
+            "talhabilaldev Return Policy (chunk 11)",
+            "talhabilaldev Return Policy (chunk 10)",
+            "talhabilaldev Return Policy (chunk 9)",
+            "talhabilaldev Return Policy (chunk 12)",
+            "talhabilaldev Discount Policy (chunk 8)"
+          ],
+          "declined": false,
+          "latency_s": 2.75
+        },
+        {
+          "id": 14,
+          "bucket": "correct",
+          "question": "What should I do before sending a device for a return?",
+          "answer": "Before sending a device for a return, you should:\n\n1. Back up your data.\n2. Sign out of all accounts, including any device locks (e.g., Find My Device).\n3. Perform a factory reset.\n\nThese steps are necessary because the return cannot be processed on devices with active account locks (source: chunk 11).",
+          "retrieved": [
+            {
+              "chunk_id": 11,
+              "distance": 0.4206
+            },
+            {
+              "chunk_id": 10,
+              "distance": 0.4852
+            },
+            {
+              "chunk_id": 9,
+              "distance": 0.545
+            },
+            {
+              "chunk_id": 12,
+              "distance": 0.5913
+            },
+            {
+              "chunk_id": 8,
+              "distance": 0.6822
+            }
+          ],
+          "retrieved_after_cutoff": [
+            11,
+            10,
+            9,
+            12,
+            8
+          ],
+          "cited_sources": [
+            "talhabilaldev Return Policy (chunk 11)",
+            "talhabilaldev Return Policy (chunk 10)",
+            "talhabilaldev Return Policy (chunk 9)",
+            "talhabilaldev Return Policy (chunk 12)",
+            "talhabilaldev Discount Policy (chunk 8)"
+          ],
+          "declined": false,
+          "latency_s": 2.66
+        },
+        {
+          "id": 15,
+          "bucket": "correct",
+          "question": "How long do referral credits last?",
+          "answer": "Referral credits expire 90 days after they are issued (source: chunk 7).",
+          "retrieved": [
+            {
+              "chunk_id": 7,
+              "distance": 0.4173
+            },
+            {
+              "chunk_id": 8,
+              "distance": 0.6095
+            },
+            {
+              "chunk_id": 5,
+              "distance": 0.6388
+            },
+            {
+              "chunk_id": 6,
+              "distance": 0.6406
+            },
+            {
+              "chunk_id": 9,
+              "distance": 0.6824
+            }
+          ],
+          "retrieved_after_cutoff": [
+            7,
+            8,
+            5,
+            6,
+            9
+          ],
+          "cited_sources": [
+            "talhabilaldev Discount Policy (chunk 7)",
+            "talhabilaldev Discount Policy (chunk 8)",
+            "talhabilaldev Discount Policy (chunk 5)",
+            "talhabilaldev Discount Policy (chunk 6)",
+            "talhabilaldev Return Policy (chunk 9)"
+          ],
+          "declined": false,
+          "latency_s": 2.44
+        },
+        {
+          "id": 16,
+          "bucket": "partial",
+          "question": "What is the warranty period for laptops?",
+          "answer": "The warranty period for laptops is not specified in the retrieved documents. However, it is mentioned that all products are covered by the manufacturer's warranty (source: chunk 10).",
+          "retrieved": [
+            {
+              "chunk_id": 11,
+              "distance": 0.5708
+            },
+            {
+              "chunk_id": 9,
+              "distance": 0.6259
+            },
+            {
+              "chunk_id": 10,
+              "distance": 0.6422
+            },
+            {
+              "chunk_id": 8,
+              "distance": 0.6858
+            },
+            {
+              "chunk_id": 5,
+              "distance": 0.7033
+            }
+          ],
+          "retrieved_after_cutoff": [
+            11,
+            9,
+            10,
+            8,
+            5
+          ],
+          "cited_sources": [
+            "talhabilaldev Return Policy (chunk 11)",
+            "talhabilaldev Return Policy (chunk 9)",
+            "talhabilaldev Return Policy (chunk 10)",
+            "talhabilaldev Discount Policy (chunk 8)",
+            "talhabilaldev Discount Policy (chunk 5)"
+          ],
+          "declined": false,
+          "latency_s": 2.48
+        },
+        {
+          "id": 17,
+          "bucket": "partial",
+          "question": "Can I return an item after 30 days if it is defective?",
+          "answer": "You can return a defective item, but you must contact customer support within 7 days of delivery to report the issue. If you do so, you will be offered a free replacement or a full refund, including original shipping costs (source: chunk 10). The documents do not specify the return process for defective items after 30 days.",
+          "retrieved": [
+            {
+              "chunk_id": 10,
+              "distance": 0.5488
+            },
+            {
+              "chunk_id": 9,
+              "distance": 0.5557
+            },
+            {
+              "chunk_id": 12,
+              "distance": 0.6106
+            },
+            {
+              "chunk_id": 8,
+              "distance": 0.6131
+            },
+            {
+              "chunk_id": 11,
+              "distance": 0.6196
+            }
+          ],
+          "retrieved_after_cutoff": [
+            10,
+            9,
+            12,
+            8,
+            11
+          ],
+          "cited_sources": [
+            "talhabilaldev Return Policy (chunk 10)",
+            "talhabilaldev Return Policy (chunk 9)",
+            "talhabilaldev Return Policy (chunk 12)",
+            "talhabilaldev Discount Policy (chunk 8)",
+            "talhabilaldev Return Policy (chunk 11)"
+          ],
+          "declined": false,
+          "latency_s": 3.06
+        },
+        {
+          "id": 18,
+          "bucket": "partial",
+          "question": "What is the maximum total discount I can get on one order?",
+          "answer": "The maximum total discount you can get on one order is up to 25% off when combining bundle and bulk discounts with seasonal sale prices. Additionally, referral credits can be applied on top of any discount, up to 50% of the order subtotal (source: chunk 6, chunk 7).",
+          "retrieved": [
+            {
+              "chunk_id": 6,
+              "distance": 0.4313
+            },
+            {
+              "chunk_id": 5,
+              "distance": 0.4908
+            },
+            {
+              "chunk_id": 7,
+              "distance": 0.5229
+            },
+            {
+              "chunk_id": 8,
+              "distance": 0.5236
+            },
+            {
+              "chunk_id": 9,
+              "distance": 0.7345
+            }
+          ],
+          "retrieved_after_cutoff": [
+            6,
+            5,
+            7,
+            8,
+            9
+          ],
+          "cited_sources": [
+            "talhabilaldev Discount Policy (chunk 6)",
+            "talhabilaldev Discount Policy (chunk 5)",
+            "talhabilaldev Discount Policy (chunk 7)",
+            "talhabilaldev Discount Policy (chunk 8)",
+            "talhabilaldev Return Policy (chunk 9)"
+          ],
+          "declined": false,
+          "latency_s": 2.62
+        },
+        {
+          "id": 19,
+          "bucket": "partial",
+          "question": "Is the restocking fee always exactly 10%?",
+          "answer": "The restocking fee for opened items in like-new condition is up to 10% (source: chunk 9). The documents do not specify if the fee is always exactly 10%.",
+          "retrieved": [
+            {
+              "chunk_id": 6,
+              "distance": 0.6458
+            },
+            {
+              "chunk_id": 8,
+              "distance": 0.6852
+            },
+            {
+              "chunk_id": 12,
+              "distance": 0.6861
+            },
+            {
+              "chunk_id": 9,
+              "distance": 0.6913
+            },
+            {
+              "chunk_id": 10,
+              "distance": 0.6986
+            }
+          ],
+          "retrieved_after_cutoff": [
+            6,
+            8,
+            12,
+            9,
+            10
+          ],
+          "cited_sources": [
+            "talhabilaldev Discount Policy (chunk 6)",
+            "talhabilaldev Discount Policy (chunk 8)",
+            "talhabilaldev Return Policy (chunk 12)",
+            "talhabilaldev Return Policy (chunk 9)",
+            "talhabilaldev Return Policy (chunk 10)"
+          ],
+          "declined": false,
+          "latency_s": 2.31
+        },
+        {
+          "id": 20,
+          "bucket": "partial",
+          "question": "Can I combine my student discount with a newsletter promo code?",
+          "answer": "You cannot combine a student discount with a newsletter promo code (source: chunk 6).",
+          "retrieved": [
+            {
+              "chunk_id": 6,
+              "distance": 0.4223
+            },
+            {
+              "chunk_id": 5,
+              "distance": 0.5214
+            },
+            {
+              "chunk_id": 7,
+              "distance": 0.5654
+            },
+            {
+              "chunk_id": 8,
+              "distance": 0.634
+            },
+            {
+              "chunk_id": 9,
+              "distance": 0.8168
+            }
+          ],
+          "retrieved_after_cutoff": [
+            6,
+            5,
+            7,
+            8,
+            9
+          ],
+          "cited_sources": [
+            "talhabilaldev Discount Policy (chunk 6)",
+            "talhabilaldev Discount Policy (chunk 5)",
+            "talhabilaldev Discount Policy (chunk 7)",
+            "talhabilaldev Discount Policy (chunk 8)",
+            "talhabilaldev Return Policy (chunk 9)"
+          ],
+          "declined": false,
+          "latency_s": 2.25
+        },
+        {
+          "id": 21,
+          "bucket": "partial",
+          "question": "What happens to my bundle discount if I return one item from the bundle?",
+          "answer": "If you return one item from a bundle, the bundle discount may be recalculated on the remaining items (source: chunk 8).",
+          "retrieved": [
+            {
+              "chunk_id": 6,
+              "distance": 0.4425
+            },
+            {
+              "chunk_id": 5,
+              "distance": 0.4766
+            },
+            {
+              "chunk_id": 8,
+              "distance": 0.4836
+            },
+            {
+              "chunk_id": 7,
+              "distance": 0.5261
+            },
+            {
+              "chunk_id": 9,
+              "distance": 0.6278
+            }
+          ],
+          "retrieved_after_cutoff": [
+            6,
+            5,
+            8,
+            7,
+            9
+          ],
+          "cited_sources": [
+            "talhabilaldev Discount Policy (chunk 6)",
+            "talhabilaldev Discount Policy (chunk 5)",
+            "talhabilaldev Discount Policy (chunk 8)",
+            "talhabilaldev Discount Policy (chunk 7)",
+            "talhabilaldev Return Policy (chunk 9)"
+          ],
+          "declined": false,
+          "latency_s": 3.44
+        },
+        {
+          "id": 22,
+          "bucket": "partial",
+          "question": "Do refunds include the original shipping cost?",
+          "answer": "Refunds do not include the original shipping cost unless the return is due to an error on the part of the company or if the item is defective (source: chunk 12).",
+          "retrieved": [
+            {
+              "chunk_id": 12,
+              "distance": 0.4999
+            },
+            {
+              "chunk_id": 11,
+              "distance": 0.6314
+            },
+            {
+              "chunk_id": 9,
+              "distance": 0.6358
+            },
+            {
+              "chunk_id": 8,
+              "distance": 0.6467
+            },
+            {
+              "chunk_id": 10,
+              "distance": 0.6475
+            }
+          ],
+          "retrieved_after_cutoff": [
+            12,
+            11,
+            9,
+            8,
+            10
+          ],
+          "cited_sources": [
+            "talhabilaldev Return Policy (chunk 12)",
+            "talhabilaldev Return Policy (chunk 11)",
+            "talhabilaldev Return Policy (chunk 9)",
+            "talhabilaldev Discount Policy (chunk 8)",
+            "talhabilaldev Return Policy (chunk 10)"
+          ],
+          "declined": false,
+          "latency_s": 2.6
+        },
+        {
+          "id": 23,
+          "bucket": "partial",
+          "question": "How do I start a manufacturer's warranty claim?",
+          "answer": "To start a manufacturer's warranty claim, you should contact support by emailing support@talhabilaldev.com with your order number and the reason for the claim. They will assist you in the process (source: chunk 10).",
+          "retrieved": [
+            {
+              "chunk_id": 11,
+              "distance": 0.474
+            },
+            {
+              "chunk_id": 10,
+              "distance": 0.5986
+            },
+            {
+              "chunk_id": 9,
+              "distance": 0.6632
+            },
+            {
+              "chunk_id": 12,
+              "distance": 0.7049
+            },
+            {
+              "chunk_id": 8,
+              "distance": 0.7138
+            }
+          ],
+          "retrieved_after_cutoff": [
+            11,
+            10,
+            9,
+            12,
+            8
+          ],
+          "cited_sources": [
+            "talhabilaldev Return Policy (chunk 11)",
+            "talhabilaldev Return Policy (chunk 10)",
+            "talhabilaldev Return Policy (chunk 9)",
+            "talhabilaldev Return Policy (chunk 12)",
+            "talhabilaldev Discount Policy (chunk 8)"
+          ],
+          "declined": false,
+          "latency_s": 2.34
+        },
+        {
+          "id": 24,
+          "bucket": "partial",
+          "question": "Can I get a price adjustment if an item I bought drops in price?",
+          "answer": "You can receive a price adjustment if an item you purchased drops in price within 7 days of your order. To obtain the adjustment, you need to contact customer support with your order number. However, this does not apply to flash sales, clearance items, or limited-time promotional events (source: chunk 8).",
+          "retrieved": [
+            {
+              "chunk_id": 8,
+              "distance": 0.6092
+            },
+            {
+              "chunk_id": 6,
+              "distance": 0.6364
+            },
+            {
+              "chunk_id": 5,
+              "distance": 0.6402
+            },
+            {
+              "chunk_id": 7,
+              "distance": 0.7234
+            },
+            {
+              "chunk_id": 9,
+              "distance": 0.7291
+            }
+          ],
+          "retrieved_after_cutoff": [
+            8,
+            6,
+            5,
+            7,
+            9
+          ],
+          "cited_sources": [
+            "talhabilaldev Discount Policy (chunk 8)",
+            "talhabilaldev Discount Policy (chunk 6)",
+            "talhabilaldev Discount Policy (chunk 5)",
+            "talhabilaldev Discount Policy (chunk 7)",
+            "talhabilaldev Return Policy (chunk 9)"
+          ],
+          "declined": false,
+          "latency_s": 2.45
+        },
+        {
+          "id": 25,
+          "bucket": "partial",
+          "question": "Can I get a student discount on a bulk order together with a seasonal sale?",
+          "answer": "You can combine bulk purchase discounts with seasonal sale prices, up to a combined maximum of 25% off. However, student discounts cannot be combined with other discounts such as first order or newsletter codes (source: chunk 6). \n\nThe documents do not specify if a student discount can be applied to a bulk order during a seasonal sale, so that part of your question is not covered.",
+          "retrieved": [
+            {
+              "chunk_id": 6,
+              "distance": 0.3916
+            },
+            {
+              "chunk_id": 5,
+              "distance": 0.4485
+            },
+            {
+              "chunk_id": 8,
+              "distance": 0.5682
+            },
+            {
+              "chunk_id": 7,
+              "distance": 0.5735
+            },
+            {
+              "chunk_id": 9,
+              "distance": 0.7166
+            }
+          ],
+          "retrieved_after_cutoff": [
+            6,
+            5,
+            8,
+            7,
+            9
+          ],
+          "cited_sources": [
+            "talhabilaldev Discount Policy (chunk 6)",
+            "talhabilaldev Discount Policy (chunk 5)",
+            "talhabilaldev Discount Policy (chunk 8)",
+            "talhabilaldev Discount Policy (chunk 7)",
+            "talhabilaldev Return Policy (chunk 9)"
+          ],
+          "declined": false,
+          "latency_s": 2.88
+        },
+        {
+          "id": 26,
+          "bucket": "partial",
+          "question": "Is the return window different for accessories than for electronics?",
+          "answer": "The return window for most items, including electronics and accessories, is 14 days from the delivery date. Accessories must be unused and in their original packaging to be eligible for return (source: chunk 9). The documents do not specify if the return window differs between accessories and electronics.",
+          "retrieved": [
+            {
+              "chunk_id": 9,
+              "distance": 0.6046
+            },
+            {
+              "chunk_id": 11,
+              "distance": 0.6113
+            },
+            {
+              "chunk_id": 10,
+              "distance": 0.6672
+            },
+            {
+              "chunk_id": 6,
+              "distance": 0.7182
+            },
+            {
+              "chunk_id": 5,
+              "distance": 0.7411
+            }
+          ],
+          "retrieved_after_cutoff": [
+            9,
+            11,
+            10,
+            6,
+            5
+          ],
+          "cited_sources": [
+            "talhabilaldev Return Policy (chunk 9)",
+            "talhabilaldev Return Policy (chunk 11)",
+            "talhabilaldev Return Policy (chunk 10)",
+            "talhabilaldev Discount Policy (chunk 6)",
+            "talhabilaldev Discount Policy (chunk 5)"
+          ],
+          "declined": false,
+          "latency_s": 2.73
+        },
+        {
+          "id": 27,
+          "bucket": "partial",
+          "question": "What exactly is required to prove an item is defective or damaged?",
+          "answer": "To prove that an item is defective or damaged, you need to contact the support team within 7 days of delivery and provide your order number along with photos or a short video of the issue (source: chunk 10).",
+          "retrieved": [
+            {
+              "chunk_id": 10,
+              "distance": 0.5862
+            },
+            {
+              "chunk_id": 11,
+              "distance": 0.6166
+            },
+            {
+              "chunk_id": 9,
+              "distance": 0.6526
+            },
+            {
+              "chunk_id": 12,
+              "distance": 0.6835
+            },
+            {
+              "chunk_id": 8,
+              "distance": 0.713
+            }
+          ],
+          "retrieved_after_cutoff": [
+            10,
+            11,
+            9,
+            12,
+            8
+          ],
+          "cited_sources": [
+            "talhabilaldev Return Policy (chunk 10)",
+            "talhabilaldev Return Policy (chunk 11)",
+            "talhabilaldev Return Policy (chunk 9)",
+            "talhabilaldev Return Policy (chunk 12)",
+            "talhabilaldev Discount Policy (chunk 8)"
+          ],
+          "declined": false,
+          "latency_s": 3.54
+        },
+        {
+          "id": 28,
+          "bucket": "irrelevant",
+          "question": "What is your phone number?",
+          "answer": "I could not find that information in the documents.",
+          "retrieved": [
+            {
+              "chunk_id": 11,
+              "distance": 0.7566
+            },
+            {
+              "chunk_id": 8,
+              "distance": 0.7648
+            },
+            {
+              "chunk_id": 12,
+              "distance": 0.7713
+            },
+            {
+              "chunk_id": 9,
+              "distance": 0.7762
+            },
+            {
+              "chunk_id": 10,
+              "distance": 0.7909
+            }
+          ],
+          "retrieved_after_cutoff": [
+            11,
+            8,
+            12,
+            9,
+            10
+          ],
+          "cited_sources": [
+            "talhabilaldev Return Policy (chunk 11)",
+            "talhabilaldev Discount Policy (chunk 8)",
+            "talhabilaldev Return Policy (chunk 12)",
+            "talhabilaldev Return Policy (chunk 9)",
+            "talhabilaldev Return Policy (chunk 10)"
+          ],
+          "declined": true,
+          "latency_s": 6.26
+        },
+        {
+          "id": 29,
+          "bucket": "irrelevant",
+          "question": "Who is the CEO of talhabilaldev?",
+          "answer": "I could not find information regarding the CEO of talhabilaldev in the documents.",
+          "retrieved": [
+            {
+              "chunk_id": 5,
+              "distance": 0.5157
+            },
+            {
+              "chunk_id": 9,
+              "distance": 0.5544
+            },
+            {
+              "chunk_id": 8,
+              "distance": 0.5651
+            },
+            {
+              "chunk_id": 12,
+              "distance": 0.5757
+            },
+            {
+              "chunk_id": 10,
+              "distance": 0.667
+            }
+          ],
+          "retrieved_after_cutoff": [
+            5,
+            9,
+            8,
+            12,
+            10
+          ],
+          "cited_sources": [
+            "talhabilaldev Discount Policy (chunk 5)",
+            "talhabilaldev Return Policy (chunk 9)",
+            "talhabilaldev Discount Policy (chunk 8)",
+            "talhabilaldev Return Policy (chunk 12)",
+            "talhabilaldev Return Policy (chunk 10)"
+          ],
+          "declined": false,
+          "latency_s": 2.53
+        },
+        {
+          "id": 30,
+          "bucket": "irrelevant",
+          "question": "Do you price match other retailers?",
+          "answer": "The documents do not mention whether there is a price matching policy with other retailers. I could not find that information in the documents.",
+          "retrieved": [
+            {
+              "chunk_id": 6,
+              "distance": 0.5928
+            },
+            {
+              "chunk_id": 5,
+              "distance": 0.6374
+            },
+            {
+              "chunk_id": 8,
+              "distance": 0.6617
+            },
+            {
+              "chunk_id": 7,
+              "distance": 0.7058
+            },
+            {
+              "chunk_id": 9,
+              "distance": 0.7203
+            }
+          ],
+          "retrieved_after_cutoff": [
+            6,
+            5,
+            8,
+            7,
+            9
+          ],
+          "cited_sources": [
+            "talhabilaldev Discount Policy (chunk 6)",
+            "talhabilaldev Discount Policy (chunk 5)",
+            "talhabilaldev Discount Policy (chunk 8)",
+            "talhabilaldev Discount Policy (chunk 7)",
+            "talhabilaldev Return Policy (chunk 9)"
+          ],
+          "declined": false,
+          "latency_s": 2.57
+        },
+        {
+          "id": 31,
+          "bucket": "irrelevant",
+          "question": "Do you ship internationally or to the EU?",
+          "answer": "I could not find information regarding international shipping or shipping to the EU in the documents.",
+          "retrieved": [
+            {
+              "chunk_id": 6,
+              "distance": 0.7376
+            },
+            {
+              "chunk_id": 12,
+              "distance": 0.7517
+            },
+            {
+              "chunk_id": 10,
+              "distance": 0.754
+            },
+            {
+              "chunk_id": 9,
+              "distance": 0.7556
+            },
+            {
+              "chunk_id": 11,
+              "distance": 0.7864
+            }
+          ],
+          "retrieved_after_cutoff": [
+            6,
+            12,
+            10,
+            9,
+            11
+          ],
+          "cited_sources": [
+            "talhabilaldev Discount Policy (chunk 6)",
+            "talhabilaldev Return Policy (chunk 12)",
+            "talhabilaldev Return Policy (chunk 10)",
+            "talhabilaldev Return Policy (chunk 9)",
+            "talhabilaldev Return Policy (chunk 11)"
+          ],
+          "declined": false,
+          "latency_s": 2.62
+        },
+        {
+          "id": 32,
+          "bucket": "irrelevant",
+          "question": "Which payment methods do you accept?",
+          "answer": "I could not find information regarding the accepted payment methods in the documents.",
+          "retrieved": [
+            {
+              "chunk_id": 8,
+              "distance": 0.6573
+            },
+            {
+              "chunk_id": 12,
+              "distance": 0.6599
+            },
+            {
+              "chunk_id": 6,
+              "distance": 0.6637
+            },
+            {
+              "chunk_id": 5,
+              "distance": 0.665
+            },
+            {
+              "chunk_id": 7,
+              "distance": 0.6728
+            }
+          ],
+          "retrieved_after_cutoff": [
+            8,
+            12,
+            6,
+            5,
+            7
+          ],
+          "cited_sources": [
+            "talhabilaldev Discount Policy (chunk 8)",
+            "talhabilaldev Return Policy (chunk 12)",
+            "talhabilaldev Discount Policy (chunk 6)",
+            "talhabilaldev Discount Policy (chunk 5)",
+            "talhabilaldev Discount Policy (chunk 7)"
+          ],
+          "declined": false,
+          "latency_s": 2.33
+        },
+        {
+          "id": 33,
+          "bucket": "irrelevant",
+          "question": "Can I cancel my order after placing it?",
+          "answer": "The documents do not provide specific information about canceling an order after it has been placed. They mainly discuss return policies and conditions for refunds. If you need further assistance, please let me know!",
+          "retrieved": [
+            {
+              "chunk_id": 8,
+              "distance": 0.6599
+            },
+            {
+              "chunk_id": 12,
+              "distance": 0.6838
+            },
+            {
+              "chunk_id": 7,
+              "distance": 0.7001
+            },
+            {
+              "chunk_id": 10,
+              "distance": 0.7069
+            },
+            {
+              "chunk_id": 9,
+              "distance": 0.7385
+            }
+          ],
+          "retrieved_after_cutoff": [
+            8,
+            12,
+            7,
+            10,
+            9
+          ],
+          "cited_sources": [
+            "talhabilaldev Discount Policy (chunk 8)",
+            "talhabilaldev Return Policy (chunk 12)",
+            "talhabilaldev Discount Policy (chunk 7)",
+            "talhabilaldev Return Policy (chunk 10)",
+            "talhabilaldev Return Policy (chunk 9)"
+          ],
+          "declined": false,
+          "latency_s": 2.36
+        },
+        {
+          "id": 34,
+          "bucket": "irrelevant",
+          "question": "How do I track my order?",
+          "answer": "I could not find information on how to track your order in the documents.",
+          "retrieved": [
+            {
+              "chunk_id": 11,
+              "distance": 0.6665
+            },
+            {
+              "chunk_id": 12,
+              "distance": 0.6755
+            },
+            {
+              "chunk_id": 10,
+              "distance": 0.6941
+            },
+            {
+              "chunk_id": 8,
+              "distance": 0.7107
+            },
+            {
+              "chunk_id": 9,
+              "distance": 0.7239
+            }
+          ],
+          "retrieved_after_cutoff": [
+            11,
+            12,
+            10,
+            8,
+            9
+          ],
+          "cited_sources": [
+            "talhabilaldev Return Policy (chunk 11)",
+            "talhabilaldev Return Policy (chunk 12)",
+            "talhabilaldev Return Policy (chunk 10)",
+            "talhabilaldev Discount Policy (chunk 8)",
+            "talhabilaldev Return Policy (chunk 9)"
+          ],
+          "declined": false,
+          "latency_s": 2.37
+        },
+        {
+          "id": 35,
+          "bucket": "irrelevant",
+          "question": "Do you have a loyalty or rewards membership program?",
+          "answer": "I could not find information regarding a loyalty or rewards membership program in the documents.",
+          "retrieved": [
+            {
+              "chunk_id": 5,
+              "distance": 0.64
+            },
+            {
+              "chunk_id": 7,
+              "distance": 0.6547
+            },
+            {
+              "chunk_id": 6,
+              "distance": 0.6709
+            },
+            {
+              "chunk_id": 8,
+              "distance": 0.6963
+            },
+            {
+              "chunk_id": 9,
+              "distance": 0.7342
+            }
+          ],
+          "retrieved_after_cutoff": [
+            5,
+            7,
+            6,
+            8,
+            9
+          ],
+          "cited_sources": [
+            "talhabilaldev Discount Policy (chunk 5)",
+            "talhabilaldev Discount Policy (chunk 7)",
+            "talhabilaldev Discount Policy (chunk 6)",
+            "talhabilaldev Discount Policy (chunk 8)",
+            "talhabilaldev Return Policy (chunk 9)"
+          ],
+          "declined": false,
+          "latency_s": 2.36
+        },
+        {
+          "id": 36,
+          "bucket": "irrelevant",
+          "question": "Do you offer gift wrapping?",
+          "answer": "I could not find information regarding gift wrapping in the documents.",
+          "retrieved": [
+            {
+              "chunk_id": 6,
+              "distance": 0.7182
+            },
+            {
+              "chunk_id": 10,
+              "distance": 0.7242
+            },
+            {
+              "chunk_id": 9,
+              "distance": 0.7656
+            },
+            {
+              "chunk_id": 8,
+              "distance": 0.7816
+            },
+            {
+              "chunk_id": 5,
+              "distance": 0.7902
+            }
+          ],
+          "retrieved_after_cutoff": [
+            6,
+            10,
+            9,
+            8,
+            5
+          ],
+          "cited_sources": [
+            "talhabilaldev Discount Policy (chunk 6)",
+            "talhabilaldev Return Policy (chunk 10)",
+            "talhabilaldev Return Policy (chunk 9)",
+            "talhabilaldev Discount Policy (chunk 8)",
+            "talhabilaldev Discount Policy (chunk 5)"
+          ],
+          "declined": false,
+          "latency_s": 2.12
+        },
+        {
+          "id": 37,
+          "bucket": "irrelevant",
+          "question": "Do you offer military or senior discounts?",
+          "answer": "The documents do not mention any military or senior discounts. I could not find that information in the documents.",
+          "retrieved": [
+            {
+              "chunk_id": 6,
+              "distance": 0.5899
+            },
+            {
+              "chunk_id": 5,
+              "distance": 0.6061
+            },
+            {
+              "chunk_id": 7,
+              "distance": 0.6513
+            },
+            {
+              "chunk_id": 8,
+              "distance": 0.671
+            },
+            {
+              "chunk_id": 9,
+              "distance": 0.8021
+            }
+          ],
+          "retrieved_after_cutoff": [
+            6,
+            5,
+            7,
+            8,
+            9
+          ],
+          "cited_sources": [
+            "talhabilaldev Discount Policy (chunk 6)",
+            "talhabilaldev Discount Policy (chunk 5)",
+            "talhabilaldev Discount Policy (chunk 7)",
+            "talhabilaldev Discount Policy (chunk 8)",
+            "talhabilaldev Return Policy (chunk 9)"
+          ],
+          "declined": false,
+          "latency_s": 2.28
+        },
+        {
+          "id": 38,
+          "bucket": "irrelevant",
+          "question": "Where are your physical store locations?",
+          "answer": "I could not find that information in the documents.",
+          "retrieved": [
+            {
+              "chunk_id": 9,
+              "distance": 0.7536
+            },
+            {
+              "chunk_id": 5,
+              "distance": 0.7844
+            },
+            {
+              "chunk_id": 10,
+              "distance": 0.7856
+            },
+            {
+              "chunk_id": 6,
+              "distance": 0.7868
+            },
+            {
+              "chunk_id": 8,
+              "distance": 0.7897
+            }
+          ],
+          "retrieved_after_cutoff": [
+            9,
+            5,
+            10,
+            6,
+            8
+          ],
+          "cited_sources": [
+            "talhabilaldev Return Policy (chunk 9)",
+            "talhabilaldev Discount Policy (chunk 5)",
+            "talhabilaldev Return Policy (chunk 10)",
+            "talhabilaldev Discount Policy (chunk 6)",
+            "talhabilaldev Discount Policy (chunk 8)"
+          ],
+          "declined": true,
+          "latency_s": 2.69
+        },
+        {
+          "id": 39,
+          "bucket": "irrelevant",
+          "question": "Are you hiring, and how do I apply for a job?",
+          "answer": "I could not find information regarding hiring or how to apply for a job in the documents.",
+          "retrieved": [
+            {
+              "chunk_id": 11,
+              "distance": 0.8259
+            },
+            {
+              "chunk_id": 5,
+              "distance": 0.8279
+            },
+            {
+              "chunk_id": 7,
+              "distance": 0.8355
+            },
+            {
+              "chunk_id": 10,
+              "distance": 0.8448
+            },
+            {
+              "chunk_id": 12,
+              "distance": 0.8485
+            }
+          ],
+          "retrieved_after_cutoff": [
+            11,
+            5,
+            7,
+            10,
+            12
+          ],
+          "cited_sources": [
+            "talhabilaldev Return Policy (chunk 11)",
+            "talhabilaldev Discount Policy (chunk 5)",
+            "talhabilaldev Discount Policy (chunk 7)",
+            "talhabilaldev Return Policy (chunk 10)",
+            "talhabilaldev Return Policy (chunk 12)"
+          ],
+          "declined": false,
+          "latency_s": 3.28
+        },
+        {
+          "id": 40,
+          "bucket": "irrelevant",
+          "question": "What is the weather like at your headquarters today?",
+          "answer": "I could not find that information in the documents.",
+          "retrieved": [
+            {
+              "chunk_id": 11,
+              "distance": 0.8348
+            },
+            {
+              "chunk_id": 6,
+              "distance": 0.8354
+            },
+            {
+              "chunk_id": 8,
+              "distance": 0.84
+            },
+            {
+              "chunk_id": 9,
+              "distance": 0.8492
+            },
+            {
+              "chunk_id": 5,
+              "distance": 0.8675
+            }
+          ],
+          "retrieved_after_cutoff": [
+            11,
+            6,
+            8,
+            9
+          ],
+          "cited_sources": [
+            "talhabilaldev Return Policy (chunk 11)",
+            "talhabilaldev Discount Policy (chunk 6)",
+            "talhabilaldev Discount Policy (chunk 8)",
+            "talhabilaldev Return Policy (chunk 9)"
+          ],
+          "declined": true,
+          "latency_s": 2.2
+        }
+      ]
+    }
+  ]
+}
